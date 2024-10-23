@@ -1,0 +1,1 @@
+print(f"Sum: {sum(numbers)}, Max: {max(numbers)} ")

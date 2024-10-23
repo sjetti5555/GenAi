@@ -1,0 +1,2972 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7acad2126038dfc876fe5c8038e65a8f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7acad2126038dfc876fe5c8038e65a8f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7acad2126038dfc876fe5c8038e65a8f = L.map(
+                "map_7acad2126038dfc876fe5c8038e65a8f",
+                {
+                    center: [15.9129, 79.74],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a0cbbebc66f37651b8660006859cbf0b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a0cbbebc66f37651b8660006859cbf0b.addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+            var marker_bb7c3dee8460d18120dc95fdae8d2e49 = L.marker(
+                [16.58326245133418, 80.12859630463277],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_8877dd40c3bed98847f2b593cf2842c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddebc952febb2ec5e31c76e2c73823b9 = $(`<div id="html_ddebc952febb2ec5e31c76e2c73823b9" style="width: 100.0%; height: 100.0%;">Mining - Guntur</div>`)[0];
+                popup_8877dd40c3bed98847f2b593cf2842c6.setContent(html_ddebc952febb2ec5e31c76e2c73823b9);
+            
+        
+
+        marker_bb7c3dee8460d18120dc95fdae8d2e49.bindPopup(popup_8877dd40c3bed98847f2b593cf2842c6)
+        ;
+
+        
+    
+    
+            marker_bb7c3dee8460d18120dc95fdae8d2e49.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ce22e693cb43d5259fd9a16aacba44e = L.marker(
+                [17.400998653313057, 79.42106166955013],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_0bef5cba90704649e4dc208f98bc98ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b09ddbe3f95a67ecb67ba24f990155d9 = $(`<div id="html_b09ddbe3f95a67ecb67ba24f990155d9" style="width: 100.0%; height: 100.0%;">Textiles - Vijayawada</div>`)[0];
+                popup_0bef5cba90704649e4dc208f98bc98ea.setContent(html_b09ddbe3f95a67ecb67ba24f990155d9);
+            
+        
+
+        marker_5ce22e693cb43d5259fd9a16aacba44e.bindPopup(popup_0bef5cba90704649e4dc208f98bc98ea)
+        ;
+
+        
+    
+    
+            marker_5ce22e693cb43d5259fd9a16aacba44e.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a72f1150034c691927f8af290ddb0f6 = L.marker(
+                [17.980079689029687, 78.3871343934714],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_148a65aaea10ce0553fb45e348f26138 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b9c8e9ebd1321817b9fd9679e355861 = $(`<div id="html_9b9c8e9ebd1321817b9fd9679e355861" style="width: 100.0%; height: 100.0%;">Agriculture - Guntur</div>`)[0];
+                popup_148a65aaea10ce0553fb45e348f26138.setContent(html_9b9c8e9ebd1321817b9fd9679e355861);
+            
+        
+
+        marker_6a72f1150034c691927f8af290ddb0f6.bindPopup(popup_148a65aaea10ce0553fb45e348f26138)
+        ;
+
+        
+    
+    
+            marker_6a72f1150034c691927f8af290ddb0f6.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ea11a565b6045ee00e2001d6dc0e95d = L.marker(
+                [16.17376524079551, 79.20693324817064],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_4b911fef3cf4e2cb4c208b6d47445888 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be8dae6b5a02aecd95709ccf776dac67 = $(`<div id="html_be8dae6b5a02aecd95709ccf776dac67" style="width: 100.0%; height: 100.0%;">Textiles - Visakhapatnam</div>`)[0];
+                popup_4b911fef3cf4e2cb4c208b6d47445888.setContent(html_be8dae6b5a02aecd95709ccf776dac67);
+            
+        
+
+        marker_5ea11a565b6045ee00e2001d6dc0e95d.bindPopup(popup_4b911fef3cf4e2cb4c208b6d47445888)
+        ;
+
+        
+    
+    
+            marker_5ea11a565b6045ee00e2001d6dc0e95d.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f91d435baa3fc27d0db35522027ab7c1 = L.marker(
+                [17.729710373917587, 81.59925559237554],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_df7196e936a89518392c58ab7a9e5029 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_471e6ddda0c0e74185425692483dfc7a = $(`<div id="html_471e6ddda0c0e74185425692483dfc7a" style="width: 100.0%; height: 100.0%;">Textiles - Vijayawada</div>`)[0];
+                popup_df7196e936a89518392c58ab7a9e5029.setContent(html_471e6ddda0c0e74185425692483dfc7a);
+            
+        
+
+        marker_f91d435baa3fc27d0db35522027ab7c1.bindPopup(popup_df7196e936a89518392c58ab7a9e5029)
+        ;
+
+        
+    
+    
+            marker_f91d435baa3fc27d0db35522027ab7c1.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e8f8a73042d36a9a0b2a5be39a745d0 = L.marker(
+                [17.82174370597653, 80.40363274488355],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_3759c7a885e3c68a8b799350bb139567 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_035a5da53fe68a0e89e46adb355159ab = $(`<div id="html_035a5da53fe68a0e89e46adb355159ab" style="width: 100.0%; height: 100.0%;">IT Services - Kurnool</div>`)[0];
+                popup_3759c7a885e3c68a8b799350bb139567.setContent(html_035a5da53fe68a0e89e46adb355159ab);
+            
+        
+
+        marker_6e8f8a73042d36a9a0b2a5be39a745d0.bindPopup(popup_3759c7a885e3c68a8b799350bb139567)
+        ;
+
+        
+    
+    
+            marker_6e8f8a73042d36a9a0b2a5be39a745d0.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b8b4765dd05b8a66c391b75e2be920d = L.marker(
+                [17.90769244223734, 80.80671847246128],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_cd31e927a37d63d81667c2f9738fd85d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b780cbd5ee85d29245627ffa0e1f194 = $(`<div id="html_9b780cbd5ee85d29245627ffa0e1f194" style="width: 100.0%; height: 100.0%;">Agriculture - Tirupati</div>`)[0];
+                popup_cd31e927a37d63d81667c2f9738fd85d.setContent(html_9b780cbd5ee85d29245627ffa0e1f194);
+            
+        
+
+        marker_3b8b4765dd05b8a66c391b75e2be920d.bindPopup(popup_cd31e927a37d63d81667c2f9738fd85d)
+        ;
+
+        
+    
+    
+            marker_3b8b4765dd05b8a66c391b75e2be920d.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29ecfcd9f81a112f4473b4c808179cbe = L.marker(
+                [17.01018196812866, 79.23823871670275],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_8bc9f694392f0d551e6f9b88b6472e6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8206424965e1276dc8b1597a6c8df6af = $(`<div id="html_8206424965e1276dc8b1597a6c8df6af" style="width: 100.0%; height: 100.0%;">Agriculture - Guntur</div>`)[0];
+                popup_8bc9f694392f0d551e6f9b88b6472e6f.setContent(html_8206424965e1276dc8b1597a6c8df6af);
+            
+        
+
+        marker_29ecfcd9f81a112f4473b4c808179cbe.bindPopup(popup_8bc9f694392f0d551e6f9b88b6472e6f)
+        ;
+
+        
+    
+    
+            marker_29ecfcd9f81a112f4473b4c808179cbe.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a871203ac4969bf9dfb567619d3e05ed = L.marker(
+                [15.651359967016905, 80.55296243039132],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_b311deba15de4d5b4bbf3471a4205a3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_355b6f0fdfd180054362a40170754a1d = $(`<div id="html_355b6f0fdfd180054362a40170754a1d" style="width: 100.0%; height: 100.0%;">Agriculture - Tirupati</div>`)[0];
+                popup_b311deba15de4d5b4bbf3471a4205a3c.setContent(html_355b6f0fdfd180054362a40170754a1d);
+            
+        
+
+        marker_a871203ac4969bf9dfb567619d3e05ed.bindPopup(popup_b311deba15de4d5b4bbf3471a4205a3c)
+        ;
+
+        
+    
+    
+            marker_a871203ac4969bf9dfb567619d3e05ed.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8c549f424d1d95ab97114a66a3ddce6 = L.marker(
+                [15.3780288266744, 81.37165777104042],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_daf7065c807543964f3f488a0e87b3e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dbc14bb478eb65d82cfd5103c687aa0 = $(`<div id="html_2dbc14bb478eb65d82cfd5103c687aa0" style="width: 100.0%; height: 100.0%;">Textiles - Tirupati</div>`)[0];
+                popup_daf7065c807543964f3f488a0e87b3e0.setContent(html_2dbc14bb478eb65d82cfd5103c687aa0);
+            
+        
+
+        marker_c8c549f424d1d95ab97114a66a3ddce6.bindPopup(popup_daf7065c807543964f3f488a0e87b3e0)
+        ;
+
+        
+    
+    
+            marker_c8c549f424d1d95ab97114a66a3ddce6.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed837bbc5814792f1b8077bc003a69d7 = L.marker(
+                [17.3327939314171, 78.43313817735786],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_8ed2dc7df880181443fb7731db20c99a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_772e33853af93a4954819b167d6410b0 = $(`<div id="html_772e33853af93a4954819b167d6410b0" style="width: 100.0%; height: 100.0%;">Mining - Vijayawada</div>`)[0];
+                popup_8ed2dc7df880181443fb7731db20c99a.setContent(html_772e33853af93a4954819b167d6410b0);
+            
+        
+
+        marker_ed837bbc5814792f1b8077bc003a69d7.bindPopup(popup_8ed2dc7df880181443fb7731db20c99a)
+        ;
+
+        
+    
+    
+            marker_ed837bbc5814792f1b8077bc003a69d7.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9e3e8a0588678f1de69f7de83a3a6ca = L.marker(
+                [17.543335463264462, 80.88699074005031],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_4508c25a25520cf312d977c1504e5496 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c23be086d92afc3c55b531d1d306f3c = $(`<div id="html_1c23be086d92afc3c55b531d1d306f3c" style="width: 100.0%; height: 100.0%;">Agriculture - Tirupati</div>`)[0];
+                popup_4508c25a25520cf312d977c1504e5496.setContent(html_1c23be086d92afc3c55b531d1d306f3c);
+            
+        
+
+        marker_e9e3e8a0588678f1de69f7de83a3a6ca.bindPopup(popup_4508c25a25520cf312d977c1504e5496)
+        ;
+
+        
+    
+    
+            marker_e9e3e8a0588678f1de69f7de83a3a6ca.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa7bce95b175b649eb5203f0a59186ff = L.marker(
+                [16.626669006044587, 80.13900694333067],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_2c9398d91edfeaa84c330df819521e4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00f1fc4f523cd14ef1170607c2925ef6 = $(`<div id="html_00f1fc4f523cd14ef1170607c2925ef6" style="width: 100.0%; height: 100.0%;">Textiles - Kurnool</div>`)[0];
+                popup_2c9398d91edfeaa84c330df819521e4c.setContent(html_00f1fc4f523cd14ef1170607c2925ef6);
+            
+        
+
+        marker_fa7bce95b175b649eb5203f0a59186ff.bindPopup(popup_2c9398d91edfeaa84c330df819521e4c)
+        ;
+
+        
+    
+    
+            marker_fa7bce95b175b649eb5203f0a59186ff.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be93422df39aaaac933ab557235678a9 = L.marker(
+                [15.347291342577295, 80.82269564910466],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_6930509ab7ae274a172f4d12827cc06e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_258cbd6bf1a48b687ac2ce2334b074df = $(`<div id="html_258cbd6bf1a48b687ac2ce2334b074df" style="width: 100.0%; height: 100.0%;">IT Services - Tirupati</div>`)[0];
+                popup_6930509ab7ae274a172f4d12827cc06e.setContent(html_258cbd6bf1a48b687ac2ce2334b074df);
+            
+        
+
+        marker_be93422df39aaaac933ab557235678a9.bindPopup(popup_6930509ab7ae274a172f4d12827cc06e)
+        ;
+
+        
+    
+    
+            marker_be93422df39aaaac933ab557235678a9.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d57fa8038407757f57b3784503a6aab9 = L.marker(
+                [17.90740091709878, 79.5244925151425],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_9ce4ece29a8fcaf4bc19d21e623d86b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_617983cb97779a7093aa4fc5b70ab85a = $(`<div id="html_617983cb97779a7093aa4fc5b70ab85a" style="width: 100.0%; height: 100.0%;">Mining - Vijayawada</div>`)[0];
+                popup_9ce4ece29a8fcaf4bc19d21e623d86b0.setContent(html_617983cb97779a7093aa4fc5b70ab85a);
+            
+        
+
+        marker_d57fa8038407757f57b3784503a6aab9.bindPopup(popup_9ce4ece29a8fcaf4bc19d21e623d86b0)
+        ;
+
+        
+    
+    
+            marker_d57fa8038407757f57b3784503a6aab9.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bf4b2fb8ee5d47fa98f81695999cefc = L.marker(
+                [15.320258819193768, 78.76741526853307],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_07fce376f9d368e58b6fb1a5e94fd470 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5202ff3666e8565444c863dd0cc72f1 = $(`<div id="html_a5202ff3666e8565444c863dd0cc72f1" style="width: 100.0%; height: 100.0%;">IT Services - Kurnool</div>`)[0];
+                popup_07fce376f9d368e58b6fb1a5e94fd470.setContent(html_a5202ff3666e8565444c863dd0cc72f1);
+            
+        
+
+        marker_2bf4b2fb8ee5d47fa98f81695999cefc.bindPopup(popup_07fce376f9d368e58b6fb1a5e94fd470)
+        ;
+
+        
+    
+    
+            marker_2bf4b2fb8ee5d47fa98f81695999cefc.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_181755b48f21d83692437451e15cbe7f = L.marker(
+                [17.112643376027897, 78.83606909817989],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_43929f383c81580c47bdc173c26e88d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a548d1befff032ab589c174ebd16f68d = $(`<div id="html_a548d1befff032ab589c174ebd16f68d" style="width: 100.0%; height: 100.0%;">Mining - Visakhapatnam</div>`)[0];
+                popup_43929f383c81580c47bdc173c26e88d8.setContent(html_a548d1befff032ab589c174ebd16f68d);
+            
+        
+
+        marker_181755b48f21d83692437451e15cbe7f.bindPopup(popup_43929f383c81580c47bdc173c26e88d8)
+        ;
+
+        
+    
+    
+            marker_181755b48f21d83692437451e15cbe7f.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9de22e3f499eb9ca11489bc196b04de8 = L.marker(
+                [15.254037837017279, 80.2872819781626],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_1c0447ebb0ffbf4e38476f8c5a3cae06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a8980325ad5818ada2f0237d42cdf07 = $(`<div id="html_9a8980325ad5818ada2f0237d42cdf07" style="width: 100.0%; height: 100.0%;">Textiles - Tirupati</div>`)[0];
+                popup_1c0447ebb0ffbf4e38476f8c5a3cae06.setContent(html_9a8980325ad5818ada2f0237d42cdf07);
+            
+        
+
+        marker_9de22e3f499eb9ca11489bc196b04de8.bindPopup(popup_1c0447ebb0ffbf4e38476f8c5a3cae06)
+        ;
+
+        
+    
+    
+            marker_9de22e3f499eb9ca11489bc196b04de8.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c27a81d2d10b174a90593c69d5859f19 = L.marker(
+                [16.956756554130518, 80.07393404203268],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_22ce7e6800dab8b513abdcbf6d201c87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57e148cf6d90171f414e618d1bb66622 = $(`<div id="html_57e148cf6d90171f414e618d1bb66622" style="width: 100.0%; height: 100.0%;">Manufacturing - Vijayawada</div>`)[0];
+                popup_22ce7e6800dab8b513abdcbf6d201c87.setContent(html_57e148cf6d90171f414e618d1bb66622);
+            
+        
+
+        marker_c27a81d2d10b174a90593c69d5859f19.bindPopup(popup_22ce7e6800dab8b513abdcbf6d201c87)
+        ;
+
+        
+    
+    
+            marker_c27a81d2d10b174a90593c69d5859f19.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eafbb0bbe45654d1e9dfe8fc5273f087 = L.marker(
+                [15.60642843164882, 80.21920834167183],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_772b9a151071127ec25e39ec34f9f2d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7bbc2e97c340e49a01e9b7136b334ef = $(`<div id="html_e7bbc2e97c340e49a01e9b7136b334ef" style="width: 100.0%; height: 100.0%;">Mining - Visakhapatnam</div>`)[0];
+                popup_772b9a151071127ec25e39ec34f9f2d7.setContent(html_e7bbc2e97c340e49a01e9b7136b334ef);
+            
+        
+
+        marker_eafbb0bbe45654d1e9dfe8fc5273f087.bindPopup(popup_772b9a151071127ec25e39ec34f9f2d7)
+        ;
+
+        
+    
+    
+            marker_eafbb0bbe45654d1e9dfe8fc5273f087.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36a9a29cdfa94da89f778f190c393318 = L.marker(
+                [16.426920409207774, 81.92512121255807],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_4cccafa3ee145d57719a97d3471f8f1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34cdd79dc7c195f8dc0937dc58ff85ff = $(`<div id="html_34cdd79dc7c195f8dc0937dc58ff85ff" style="width: 100.0%; height: 100.0%;">IT Services - Visakhapatnam</div>`)[0];
+                popup_4cccafa3ee145d57719a97d3471f8f1a.setContent(html_34cdd79dc7c195f8dc0937dc58ff85ff);
+            
+        
+
+        marker_36a9a29cdfa94da89f778f190c393318.bindPopup(popup_4cccafa3ee145d57719a97d3471f8f1a)
+        ;
+
+        
+    
+    
+            marker_36a9a29cdfa94da89f778f190c393318.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6fb2fabd98796088122441ff8fbb5b7 = L.marker(
+                [17.985545803757155, 80.09307561043136],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_92e000f4193651b49c394afc107571b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_346e2540a4a0eb0c8000aeb488894719 = $(`<div id="html_346e2540a4a0eb0c8000aeb488894719" style="width: 100.0%; height: 100.0%;">Textiles - Guntur</div>`)[0];
+                popup_92e000f4193651b49c394afc107571b2.setContent(html_346e2540a4a0eb0c8000aeb488894719);
+            
+        
+
+        marker_d6fb2fabd98796088122441ff8fbb5b7.bindPopup(popup_92e000f4193651b49c394afc107571b2)
+        ;
+
+        
+    
+    
+            marker_d6fb2fabd98796088122441ff8fbb5b7.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad37c0255ccd162906aeacc8f1665f79 = L.marker(
+                [15.733349273917474, 81.03021203235475],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_49d64c8d2c4175ae46392fc214d7b95c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ede4db86fff41093b932ca6422bb6bbf = $(`<div id="html_ede4db86fff41093b932ca6422bb6bbf" style="width: 100.0%; height: 100.0%;">Mining - Kurnool</div>`)[0];
+                popup_49d64c8d2c4175ae46392fc214d7b95c.setContent(html_ede4db86fff41093b932ca6422bb6bbf);
+            
+        
+
+        marker_ad37c0255ccd162906aeacc8f1665f79.bindPopup(popup_49d64c8d2c4175ae46392fc214d7b95c)
+        ;
+
+        
+    
+    
+            marker_ad37c0255ccd162906aeacc8f1665f79.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b151ca2d9fec44b6cb18e3389bf581c = L.marker(
+                [15.965838803974822, 80.38452254899265],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_b21592b5844bd45e31ffdffb465bc532 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ee72c2a88ee427c3d0a8e1aca10f5fd = $(`<div id="html_3ee72c2a88ee427c3d0a8e1aca10f5fd" style="width: 100.0%; height: 100.0%;">Manufacturing - Tirupati</div>`)[0];
+                popup_b21592b5844bd45e31ffdffb465bc532.setContent(html_3ee72c2a88ee427c3d0a8e1aca10f5fd);
+            
+        
+
+        marker_5b151ca2d9fec44b6cb18e3389bf581c.bindPopup(popup_b21592b5844bd45e31ffdffb465bc532)
+        ;
+
+        
+    
+    
+            marker_5b151ca2d9fec44b6cb18e3389bf581c.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_297fe1f25b5d145efeb22b4dc1f45a15 = L.marker(
+                [16.3075955654363, 80.45035789248405],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_912dda0c2edb7514d67d0a115bf0fc50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d9bdf23726a2f02520959abf6c47bcd = $(`<div id="html_9d9bdf23726a2f02520959abf6c47bcd" style="width: 100.0%; height: 100.0%;">Manufacturing - Vijayawada</div>`)[0];
+                popup_912dda0c2edb7514d67d0a115bf0fc50.setContent(html_9d9bdf23726a2f02520959abf6c47bcd);
+            
+        
+
+        marker_297fe1f25b5d145efeb22b4dc1f45a15.bindPopup(popup_912dda0c2edb7514d67d0a115bf0fc50)
+        ;
+
+        
+    
+    
+            marker_297fe1f25b5d145efeb22b4dc1f45a15.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a8db5158b621a1e68a6c982776b7421 = L.marker(
+                [15.561423789883802, 79.48078149061769],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_2f3c8e42768503e0fa492dc1a836f332 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a596aa5ed130745744a09605fbe4f13 = $(`<div id="html_1a596aa5ed130745744a09605fbe4f13" style="width: 100.0%; height: 100.0%;">Agriculture - Guntur</div>`)[0];
+                popup_2f3c8e42768503e0fa492dc1a836f332.setContent(html_1a596aa5ed130745744a09605fbe4f13);
+            
+        
+
+        marker_5a8db5158b621a1e68a6c982776b7421.bindPopup(popup_2f3c8e42768503e0fa492dc1a836f332)
+        ;
+
+        
+    
+    
+            marker_5a8db5158b621a1e68a6c982776b7421.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc35a742179d4a1b9fd10e44d8e9a231 = L.marker(
+                [16.9060904546141, 80.90258683458553],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_7581d3719b9c45bf5946fb2cd3d551cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b416dcff80eca74297e683874a95a9e = $(`<div id="html_0b416dcff80eca74297e683874a95a9e" style="width: 100.0%; height: 100.0%;">Agriculture - Kurnool</div>`)[0];
+                popup_7581d3719b9c45bf5946fb2cd3d551cb.setContent(html_0b416dcff80eca74297e683874a95a9e);
+            
+        
+
+        marker_fc35a742179d4a1b9fd10e44d8e9a231.bindPopup(popup_7581d3719b9c45bf5946fb2cd3d551cb)
+        ;
+
+        
+    
+    
+            marker_fc35a742179d4a1b9fd10e44d8e9a231.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_40166c72e5bcca9640b933ed3a95ef1f = L.marker(
+                [16.779273114452643, 80.48082999592721],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_7adce9dd124bb1b1e82ec0fe80524a50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_496b20d49d2b9f437d5788168d040283 = $(`<div id="html_496b20d49d2b9f437d5788168d040283" style="width: 100.0%; height: 100.0%;">IT Services - Guntur</div>`)[0];
+                popup_7adce9dd124bb1b1e82ec0fe80524a50.setContent(html_496b20d49d2b9f437d5788168d040283);
+            
+        
+
+        marker_40166c72e5bcca9640b933ed3a95ef1f.bindPopup(popup_7adce9dd124bb1b1e82ec0fe80524a50)
+        ;
+
+        
+    
+    
+            marker_40166c72e5bcca9640b933ed3a95ef1f.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd300cc275e3078741542611810b10c4 = L.marker(
+                [15.259357168495486, 79.60085321729017],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_1604f2adcde0fce69bf7759fbb00c3cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eadfd083c8e86ecf3db66b378027b88f = $(`<div id="html_eadfd083c8e86ecf3db66b378027b88f" style="width: 100.0%; height: 100.0%;">Mining - Kurnool</div>`)[0];
+                popup_1604f2adcde0fce69bf7759fbb00c3cf.setContent(html_eadfd083c8e86ecf3db66b378027b88f);
+            
+        
+
+        marker_dd300cc275e3078741542611810b10c4.bindPopup(popup_1604f2adcde0fce69bf7759fbb00c3cf)
+        ;
+
+        
+    
+    
+            marker_dd300cc275e3078741542611810b10c4.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72de74ebf4281cfed38bee99d6e969e5 = L.marker(
+                [17.700326461788602, 80.95264182688082],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_b59e3d0bb36123110949c31654c819a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_825467c185fae2a09f83b02c2d5e8513 = $(`<div id="html_825467c185fae2a09f83b02c2d5e8513" style="width: 100.0%; height: 100.0%;">Mining - Kurnool</div>`)[0];
+                popup_b59e3d0bb36123110949c31654c819a1.setContent(html_825467c185fae2a09f83b02c2d5e8513);
+            
+        
+
+        marker_72de74ebf4281cfed38bee99d6e969e5.bindPopup(popup_b59e3d0bb36123110949c31654c819a1)
+        ;
+
+        
+    
+    
+            marker_72de74ebf4281cfed38bee99d6e969e5.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_130b98907157d1dcd2a32bf5d49c3db6 = L.marker(
+                [15.007577420333158, 80.91915846741485],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_46cd24ecb458dd8134f8d401e813149e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64a7d88f0d5417a1a89952274bcf646a = $(`<div id="html_64a7d88f0d5417a1a89952274bcf646a" style="width: 100.0%; height: 100.0%;">Agriculture - Tirupati</div>`)[0];
+                popup_46cd24ecb458dd8134f8d401e813149e.setContent(html_64a7d88f0d5417a1a89952274bcf646a);
+            
+        
+
+        marker_130b98907157d1dcd2a32bf5d49c3db6.bindPopup(popup_46cd24ecb458dd8134f8d401e813149e)
+        ;
+
+        
+    
+    
+            marker_130b98907157d1dcd2a32bf5d49c3db6.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b734aed982b9f75c8430f80f37ebf83a = L.marker(
+                [17.86079008343779, 80.0278118141846],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_549bd97aa42a550245c5c8486dbec69b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c1940fcf3cf0243e15d0b3ce319d23a = $(`<div id="html_6c1940fcf3cf0243e15d0b3ce319d23a" style="width: 100.0%; height: 100.0%;">Mining - Kurnool</div>`)[0];
+                popup_549bd97aa42a550245c5c8486dbec69b.setContent(html_6c1940fcf3cf0243e15d0b3ce319d23a);
+            
+        
+
+        marker_b734aed982b9f75c8430f80f37ebf83a.bindPopup(popup_549bd97aa42a550245c5c8486dbec69b)
+        ;
+
+        
+    
+    
+            marker_b734aed982b9f75c8430f80f37ebf83a.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cff1186fe8189c4194ffb339b4ce0cc4 = L.marker(
+                [16.56267601520705, 80.76332284642184],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_cf19d699698331d9e85b24867fa8353f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6064d2b8fe62884be951599ec854693f = $(`<div id="html_6064d2b8fe62884be951599ec854693f" style="width: 100.0%; height: 100.0%;">Mining - Guntur</div>`)[0];
+                popup_cf19d699698331d9e85b24867fa8353f.setContent(html_6064d2b8fe62884be951599ec854693f);
+            
+        
+
+        marker_cff1186fe8189c4194ffb339b4ce0cc4.bindPopup(popup_cf19d699698331d9e85b24867fa8353f)
+        ;
+
+        
+    
+    
+            marker_cff1186fe8189c4194ffb339b4ce0cc4.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff0aad73712ad7ae3884a4c212c8aa50 = L.marker(
+                [15.751390671847622, 78.16966879357155],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_8499e3a0828b15cc016d576207882f80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_819ce6fb02f13c10f5cc204502a82e32 = $(`<div id="html_819ce6fb02f13c10f5cc204502a82e32" style="width: 100.0%; height: 100.0%;">Manufacturing - Kurnool</div>`)[0];
+                popup_8499e3a0828b15cc016d576207882f80.setContent(html_819ce6fb02f13c10f5cc204502a82e32);
+            
+        
+
+        marker_ff0aad73712ad7ae3884a4c212c8aa50.bindPopup(popup_8499e3a0828b15cc016d576207882f80)
+        ;
+
+        
+    
+    
+            marker_ff0aad73712ad7ae3884a4c212c8aa50.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a66a7409990d10fd041a831a79ad9284 = L.marker(
+                [16.998568498962385, 80.34113804136956],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_614e4a14b2220f5119bb340d94f934b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a345f64ecddff3559ccb6a3b88286e73 = $(`<div id="html_a345f64ecddff3559ccb6a3b88286e73" style="width: 100.0%; height: 100.0%;">Agriculture - Tirupati</div>`)[0];
+                popup_614e4a14b2220f5119bb340d94f934b2.setContent(html_a345f64ecddff3559ccb6a3b88286e73);
+            
+        
+
+        marker_a66a7409990d10fd041a831a79ad9284.bindPopup(popup_614e4a14b2220f5119bb340d94f934b2)
+        ;
+
+        
+    
+    
+            marker_a66a7409990d10fd041a831a79ad9284.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_366d88895b835fefa392d979a5981938 = L.marker(
+                [16.86722413670401, 80.385689915623],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_e5af985f2cf6aa1a5cb1ecba86743cd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7858e70dcac10523d29715f6853b5c5c = $(`<div id="html_7858e70dcac10523d29715f6853b5c5c" style="width: 100.0%; height: 100.0%;">Textiles - Tirupati</div>`)[0];
+                popup_e5af985f2cf6aa1a5cb1ecba86743cd9.setContent(html_7858e70dcac10523d29715f6853b5c5c);
+            
+        
+
+        marker_366d88895b835fefa392d979a5981938.bindPopup(popup_e5af985f2cf6aa1a5cb1ecba86743cd9)
+        ;
+
+        
+    
+    
+            marker_366d88895b835fefa392d979a5981938.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2354fc3c2c2304252ad9b603d3a4cf8 = L.marker(
+                [15.274364504088783, 78.6263636633784],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_3c30e7bbab3edc4eb2ee586084dc76b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_540c31d6545f1364d5a358ab4da403bb = $(`<div id="html_540c31d6545f1364d5a358ab4da403bb" style="width: 100.0%; height: 100.0%;">Agriculture - Guntur</div>`)[0];
+                popup_3c30e7bbab3edc4eb2ee586084dc76b4.setContent(html_540c31d6545f1364d5a358ab4da403bb);
+            
+        
+
+        marker_f2354fc3c2c2304252ad9b603d3a4cf8.bindPopup(popup_3c30e7bbab3edc4eb2ee586084dc76b4)
+        ;
+
+        
+    
+    
+            marker_f2354fc3c2c2304252ad9b603d3a4cf8.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d491028ef0e7c48644243fb60531cd4 = L.marker(
+                [15.420183731573282, 78.38719668671183],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_40b43745333746a15fd818d7a99a02ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edfad5bde8448ac6ca9993877ea7bb96 = $(`<div id="html_edfad5bde8448ac6ca9993877ea7bb96" style="width: 100.0%; height: 100.0%;">Textiles - Visakhapatnam</div>`)[0];
+                popup_40b43745333746a15fd818d7a99a02ba.setContent(html_edfad5bde8448ac6ca9993877ea7bb96);
+            
+        
+
+        marker_5d491028ef0e7c48644243fb60531cd4.bindPopup(popup_40b43745333746a15fd818d7a99a02ba)
+        ;
+
+        
+    
+    
+            marker_5d491028ef0e7c48644243fb60531cd4.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd3369df894d112419c73f459cc737a1 = L.marker(
+                [15.268911746623766, 79.43484392098836],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_d770fdf5353013ba5aac0b25823560d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ad608ae091619a03dfd265fe53c3be7 = $(`<div id="html_5ad608ae091619a03dfd265fe53c3be7" style="width: 100.0%; height: 100.0%;">Manufacturing - Visakhapatnam</div>`)[0];
+                popup_d770fdf5353013ba5aac0b25823560d0.setContent(html_5ad608ae091619a03dfd265fe53c3be7);
+            
+        
+
+        marker_fd3369df894d112419c73f459cc737a1.bindPopup(popup_d770fdf5353013ba5aac0b25823560d0)
+        ;
+
+        
+    
+    
+            marker_fd3369df894d112419c73f459cc737a1.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47453454d102ed34194b2b471459975b = L.marker(
+                [17.647092419419472, 81.24880411861831],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_1c0b1834e7e86bf6e3c3630e23d66f82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c9b27539ccbc9e3d52a0ae835a086c8 = $(`<div id="html_2c9b27539ccbc9e3d52a0ae835a086c8" style="width: 100.0%; height: 100.0%;">IT Services - Kurnool</div>`)[0];
+                popup_1c0b1834e7e86bf6e3c3630e23d66f82.setContent(html_2c9b27539ccbc9e3d52a0ae835a086c8);
+            
+        
+
+        marker_47453454d102ed34194b2b471459975b.bindPopup(popup_1c0b1834e7e86bf6e3c3630e23d66f82)
+        ;
+
+        
+    
+    
+            marker_47453454d102ed34194b2b471459975b.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_963750de9b1ce083effe68a820721a3d = L.marker(
+                [15.975049807787098, 80.5577546559155],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_40bbac7bcdacbe4d85c7f16794997b30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3778fc7849cda57b6d58a18a27a127a = $(`<div id="html_d3778fc7849cda57b6d58a18a27a127a" style="width: 100.0%; height: 100.0%;">Mining - Vijayawada</div>`)[0];
+                popup_40bbac7bcdacbe4d85c7f16794997b30.setContent(html_d3778fc7849cda57b6d58a18a27a127a);
+            
+        
+
+        marker_963750de9b1ce083effe68a820721a3d.bindPopup(popup_40bbac7bcdacbe4d85c7f16794997b30)
+        ;
+
+        
+    
+    
+            marker_963750de9b1ce083effe68a820721a3d.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f27b4cf20e27d6f7574c9183ace3387 = L.marker(
+                [16.821661357280885, 78.53605145186604],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_98036cae195545d5b41dd2af0ebb8055 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99cbe7048bdb163a6054b4a6a314436b = $(`<div id="html_99cbe7048bdb163a6054b4a6a314436b" style="width: 100.0%; height: 100.0%;">Manufacturing - Kurnool</div>`)[0];
+                popup_98036cae195545d5b41dd2af0ebb8055.setContent(html_99cbe7048bdb163a6054b4a6a314436b);
+            
+        
+
+        marker_3f27b4cf20e27d6f7574c9183ace3387.bindPopup(popup_98036cae195545d5b41dd2af0ebb8055)
+        ;
+
+        
+    
+    
+            marker_3f27b4cf20e27d6f7574c9183ace3387.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_876af91573637a8c786b72e0545244b7 = L.marker(
+                [16.911582754254102, 79.99420498343311],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_307459a7a1a6806947db77af3ca64890 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b65f8cefd4ec683a26562ce6bc1e598 = $(`<div id="html_4b65f8cefd4ec683a26562ce6bc1e598" style="width: 100.0%; height: 100.0%;">Mining - Guntur</div>`)[0];
+                popup_307459a7a1a6806947db77af3ca64890.setContent(html_4b65f8cefd4ec683a26562ce6bc1e598);
+            
+        
+
+        marker_876af91573637a8c786b72e0545244b7.bindPopup(popup_307459a7a1a6806947db77af3ca64890)
+        ;
+
+        
+    
+    
+            marker_876af91573637a8c786b72e0545244b7.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cdc79d6b2ec3fe941d8235385eb3e718 = L.marker(
+                [17.117939620397763, 78.75631274216053],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_33605d745a86ba921e2e84cfebe2799a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aba2c619a17a60c5f2dab0d553df6398 = $(`<div id="html_aba2c619a17a60c5f2dab0d553df6398" style="width: 100.0%; height: 100.0%;">IT Services - Guntur</div>`)[0];
+                popup_33605d745a86ba921e2e84cfebe2799a.setContent(html_aba2c619a17a60c5f2dab0d553df6398);
+            
+        
+
+        marker_cdc79d6b2ec3fe941d8235385eb3e718.bindPopup(popup_33605d745a86ba921e2e84cfebe2799a)
+        ;
+
+        
+    
+    
+            marker_cdc79d6b2ec3fe941d8235385eb3e718.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_261aa7e0c9b3e0024974c3fd8c261208 = L.marker(
+                [16.821032586623375, 78.83265942655964],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_0e4e198e74c2f650d6c6ea31739bb971 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7e94357c59151b996ee19e9377a382d = $(`<div id="html_a7e94357c59151b996ee19e9377a382d" style="width: 100.0%; height: 100.0%;">IT Services - Guntur</div>`)[0];
+                popup_0e4e198e74c2f650d6c6ea31739bb971.setContent(html_a7e94357c59151b996ee19e9377a382d);
+            
+        
+
+        marker_261aa7e0c9b3e0024974c3fd8c261208.bindPopup(popup_0e4e198e74c2f650d6c6ea31739bb971)
+        ;
+
+        
+    
+    
+            marker_261aa7e0c9b3e0024974c3fd8c261208.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c47e836b9f6c4aa39ec4a1bac47e041 = L.marker(
+                [16.661331966645726, 78.01266806076904],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_46d6db56d8cf9e52ccc41f159cf9ff61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7fc7f065d6fbd76ccfc91f24dff121d = $(`<div id="html_e7fc7f065d6fbd76ccfc91f24dff121d" style="width: 100.0%; height: 100.0%;">Manufacturing - Guntur</div>`)[0];
+                popup_46d6db56d8cf9e52ccc41f159cf9ff61.setContent(html_e7fc7f065d6fbd76ccfc91f24dff121d);
+            
+        
+
+        marker_6c47e836b9f6c4aa39ec4a1bac47e041.bindPopup(popup_46d6db56d8cf9e52ccc41f159cf9ff61)
+        ;
+
+        
+    
+    
+            marker_6c47e836b9f6c4aa39ec4a1bac47e041.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fc6375d6e372d11ba62f0ebbe5aafe3 = L.marker(
+                [17.0059091727832, 80.26802444837324],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_013d6d7b2ae015c37a116ca40aadf448 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_083143f5b836018ada3d39da2c964136 = $(`<div id="html_083143f5b836018ada3d39da2c964136" style="width: 100.0%; height: 100.0%;">IT Services - Guntur</div>`)[0];
+                popup_013d6d7b2ae015c37a116ca40aadf448.setContent(html_083143f5b836018ada3d39da2c964136);
+            
+        
+
+        marker_6fc6375d6e372d11ba62f0ebbe5aafe3.bindPopup(popup_013d6d7b2ae015c37a116ca40aadf448)
+        ;
+
+        
+    
+    
+            marker_6fc6375d6e372d11ba62f0ebbe5aafe3.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c62195bd97e1e208fbcd8bae0dfc3c37 = L.marker(
+                [15.292754927611185, 79.53482846034616],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_5bb5d744465d9a66cef6003113a33ec7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6029a3dcd4f7612bfe1eeee5d8302b56 = $(`<div id="html_6029a3dcd4f7612bfe1eeee5d8302b56" style="width: 100.0%; height: 100.0%;">Textiles - Tirupati</div>`)[0];
+                popup_5bb5d744465d9a66cef6003113a33ec7.setContent(html_6029a3dcd4f7612bfe1eeee5d8302b56);
+            
+        
+
+        marker_c62195bd97e1e208fbcd8bae0dfc3c37.bindPopup(popup_5bb5d744465d9a66cef6003113a33ec7)
+        ;
+
+        
+    
+    
+            marker_c62195bd97e1e208fbcd8bae0dfc3c37.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6744eb418a926e3c1df298d05f5d57ea = L.marker(
+                [17.17494545880979, 78.06864348271372],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_0986f5cd117881399169710c58640978 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c92b8c847f748507c98ccaac73844429 = $(`<div id="html_c92b8c847f748507c98ccaac73844429" style="width: 100.0%; height: 100.0%;">IT Services - Visakhapatnam</div>`)[0];
+                popup_0986f5cd117881399169710c58640978.setContent(html_c92b8c847f748507c98ccaac73844429);
+            
+        
+
+        marker_6744eb418a926e3c1df298d05f5d57ea.bindPopup(popup_0986f5cd117881399169710c58640978)
+        ;
+
+        
+    
+    
+            marker_6744eb418a926e3c1df298d05f5d57ea.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0062d492ee7eae1e34ef30395711e65d = L.marker(
+                [16.84987989790146, 81.10132283270705],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_fc6e315b88eba7323581e314f4de5c48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79bdaa7a21149d1e9f205735f332fa41 = $(`<div id="html_79bdaa7a21149d1e9f205735f332fa41" style="width: 100.0%; height: 100.0%;">Mining - Guntur</div>`)[0];
+                popup_fc6e315b88eba7323581e314f4de5c48.setContent(html_79bdaa7a21149d1e9f205735f332fa41);
+            
+        
+
+        marker_0062d492ee7eae1e34ef30395711e65d.bindPopup(popup_fc6e315b88eba7323581e314f4de5c48)
+        ;
+
+        
+    
+    
+            marker_0062d492ee7eae1e34ef30395711e65d.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d52917c09a9cefd7a1125cc210b26a86 = L.marker(
+                [16.588159891621714, 81.47674722843016],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_90fb95abe4db338979d072833c163b02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ebcfc31a313f06bdd401c37bcf58f8e = $(`<div id="html_5ebcfc31a313f06bdd401c37bcf58f8e" style="width: 100.0%; height: 100.0%;">Mining - Vijayawada</div>`)[0];
+                popup_90fb95abe4db338979d072833c163b02.setContent(html_5ebcfc31a313f06bdd401c37bcf58f8e);
+            
+        
+
+        marker_d52917c09a9cefd7a1125cc210b26a86.bindPopup(popup_90fb95abe4db338979d072833c163b02)
+        ;
+
+        
+    
+    
+            marker_d52917c09a9cefd7a1125cc210b26a86.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_985d7a12bdd720f1a4afc2aed703dbde = L.marker(
+                [16.766156165574507, 81.48538039420265],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_fa6c0972d4b08bd3cad28f3d68ef9dcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cd7317298b0737ae994b06f7b1ada25 = $(`<div id="html_7cd7317298b0737ae994b06f7b1ada25" style="width: 100.0%; height: 100.0%;">Mining - Vijayawada</div>`)[0];
+                popup_fa6c0972d4b08bd3cad28f3d68ef9dcd.setContent(html_7cd7317298b0737ae994b06f7b1ada25);
+            
+        
+
+        marker_985d7a12bdd720f1a4afc2aed703dbde.bindPopup(popup_fa6c0972d4b08bd3cad28f3d68ef9dcd)
+        ;
+
+        
+    
+    
+            marker_985d7a12bdd720f1a4afc2aed703dbde.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c1730e2d358f7b848432cb8538e888c = L.marker(
+                [15.660605350893105, 79.96342551786492],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_86d4b6ed28045ab7985fc448527af38f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a82ff4b8704db16a72cd87154cd33dc = $(`<div id="html_7a82ff4b8704db16a72cd87154cd33dc" style="width: 100.0%; height: 100.0%;">Mining - Vijayawada</div>`)[0];
+                popup_86d4b6ed28045ab7985fc448527af38f.setContent(html_7a82ff4b8704db16a72cd87154cd33dc);
+            
+        
+
+        marker_3c1730e2d358f7b848432cb8538e888c.bindPopup(popup_86d4b6ed28045ab7985fc448527af38f)
+        ;
+
+        
+    
+    
+            marker_3c1730e2d358f7b848432cb8538e888c.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26093137abc1d49c1e8d2c42974bdcf6 = L.marker(
+                [16.06564667838176, 80.1283572018096],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_8d5a75c2d0850dc04f24eb38abb9899c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9774f589519c434fc2b5a80929b3c80 = $(`<div id="html_f9774f589519c434fc2b5a80929b3c80" style="width: 100.0%; height: 100.0%;">Textiles - Vijayawada</div>`)[0];
+                popup_8d5a75c2d0850dc04f24eb38abb9899c.setContent(html_f9774f589519c434fc2b5a80929b3c80);
+            
+        
+
+        marker_26093137abc1d49c1e8d2c42974bdcf6.bindPopup(popup_8d5a75c2d0850dc04f24eb38abb9899c)
+        ;
+
+        
+    
+    
+            marker_26093137abc1d49c1e8d2c42974bdcf6.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a775dd445a70635bfd130831047a0fb8 = L.marker(
+                [15.036661402591943, 79.017835067349],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_8a1523fc2c5ec2589ec1b82307679be2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed33770fc56d7937a274051afbc3ee45 = $(`<div id="html_ed33770fc56d7937a274051afbc3ee45" style="width: 100.0%; height: 100.0%;">Agriculture - Tirupati</div>`)[0];
+                popup_8a1523fc2c5ec2589ec1b82307679be2.setContent(html_ed33770fc56d7937a274051afbc3ee45);
+            
+        
+
+        marker_a775dd445a70635bfd130831047a0fb8.bindPopup(popup_8a1523fc2c5ec2589ec1b82307679be2)
+        ;
+
+        
+    
+    
+            marker_a775dd445a70635bfd130831047a0fb8.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c357772d2e97ad4e9b5a7ffacd88c29 = L.marker(
+                [15.674990877668252, 81.01443552666943],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_c90f27faf26f13d267349e4907d595ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_922c969361e2680a4d071ce7a021a4e5 = $(`<div id="html_922c969361e2680a4d071ce7a021a4e5" style="width: 100.0%; height: 100.0%;">Manufacturing - Vijayawada</div>`)[0];
+                popup_c90f27faf26f13d267349e4907d595ee.setContent(html_922c969361e2680a4d071ce7a021a4e5);
+            
+        
+
+        marker_8c357772d2e97ad4e9b5a7ffacd88c29.bindPopup(popup_c90f27faf26f13d267349e4907d595ee)
+        ;
+
+        
+    
+    
+            marker_8c357772d2e97ad4e9b5a7ffacd88c29.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acaa8d3b7102d1b231944d46cbf91cf0 = L.marker(
+                [17.322658538303067, 80.9713017027914],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_553d7decb4e30c62d9f6a016c8e1704f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c0a8ad050d091b3d2b12b4f22787389 = $(`<div id="html_6c0a8ad050d091b3d2b12b4f22787389" style="width: 100.0%; height: 100.0%;">Mining - Guntur</div>`)[0];
+                popup_553d7decb4e30c62d9f6a016c8e1704f.setContent(html_6c0a8ad050d091b3d2b12b4f22787389);
+            
+        
+
+        marker_acaa8d3b7102d1b231944d46cbf91cf0.bindPopup(popup_553d7decb4e30c62d9f6a016c8e1704f)
+        ;
+
+        
+    
+    
+            marker_acaa8d3b7102d1b231944d46cbf91cf0.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8a194e160af1a674e4327001095c6e4 = L.marker(
+                [16.163414894209314, 81.86099704686414],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_9450e28324e124c56fc94cd4b9367455 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd32c56de6f7e49d5e1ccd09b2eae2ab = $(`<div id="html_dd32c56de6f7e49d5e1ccd09b2eae2ab" style="width: 100.0%; height: 100.0%;">IT Services - Kurnool</div>`)[0];
+                popup_9450e28324e124c56fc94cd4b9367455.setContent(html_dd32c56de6f7e49d5e1ccd09b2eae2ab);
+            
+        
+
+        marker_a8a194e160af1a674e4327001095c6e4.bindPopup(popup_9450e28324e124c56fc94cd4b9367455)
+        ;
+
+        
+    
+    
+            marker_a8a194e160af1a674e4327001095c6e4.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f213945c5fc72f3bf4ac44dfd7b6c81d = L.marker(
+                [17.484996021507, 79.24337547529483],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_fdef906a3b5796fee0eafd4a3b273a31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7defb999204fd94e244ff7e517fe53d = $(`<div id="html_f7defb999204fd94e244ff7e517fe53d" style="width: 100.0%; height: 100.0%;">Mining - Vijayawada</div>`)[0];
+                popup_fdef906a3b5796fee0eafd4a3b273a31.setContent(html_f7defb999204fd94e244ff7e517fe53d);
+            
+        
+
+        marker_f213945c5fc72f3bf4ac44dfd7b6c81d.bindPopup(popup_fdef906a3b5796fee0eafd4a3b273a31)
+        ;
+
+        
+    
+    
+            marker_f213945c5fc72f3bf4ac44dfd7b6c81d.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3809aded7e3dc1b7a03311c609cb5a5e = L.marker(
+                [16.418651752382956, 78.29077095249069],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_3f4a95990d831d1f226053b97513fe2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f2c8fa659653e6a554a65d49065c31d = $(`<div id="html_5f2c8fa659653e6a554a65d49065c31d" style="width: 100.0%; height: 100.0%;">IT Services - Tirupati</div>`)[0];
+                popup_3f4a95990d831d1f226053b97513fe2a.setContent(html_5f2c8fa659653e6a554a65d49065c31d);
+            
+        
+
+        marker_3809aded7e3dc1b7a03311c609cb5a5e.bindPopup(popup_3f4a95990d831d1f226053b97513fe2a)
+        ;
+
+        
+    
+    
+            marker_3809aded7e3dc1b7a03311c609cb5a5e.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4f7606791d3911943a5f9fed96c1725 = L.marker(
+                [17.81428047943502, 79.62923221582962],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_e788bb7b5f5eeca72267347a6fe58805 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_911e7146b5334c34f4f096f73b380873 = $(`<div id="html_911e7146b5334c34f4f096f73b380873" style="width: 100.0%; height: 100.0%;">IT Services - Tirupati</div>`)[0];
+                popup_e788bb7b5f5eeca72267347a6fe58805.setContent(html_911e7146b5334c34f4f096f73b380873);
+            
+        
+
+        marker_b4f7606791d3911943a5f9fed96c1725.bindPopup(popup_e788bb7b5f5eeca72267347a6fe58805)
+        ;
+
+        
+    
+    
+            marker_b4f7606791d3911943a5f9fed96c1725.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_faf441fbd439f1db54354eed95a484ce = L.marker(
+                [15.931307177077906, 81.8079420480966],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_785009415cc186a6c58a0bd6061048f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c9d231e9a692c9e6bc75010a95cc9f1 = $(`<div id="html_4c9d231e9a692c9e6bc75010a95cc9f1" style="width: 100.0%; height: 100.0%;">Mining - Vijayawada</div>`)[0];
+                popup_785009415cc186a6c58a0bd6061048f6.setContent(html_4c9d231e9a692c9e6bc75010a95cc9f1);
+            
+        
+
+        marker_faf441fbd439f1db54354eed95a484ce.bindPopup(popup_785009415cc186a6c58a0bd6061048f6)
+        ;
+
+        
+    
+    
+            marker_faf441fbd439f1db54354eed95a484ce.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03ceef45fb60cd32ce4ef45f723a4feb = L.marker(
+                [15.34012614484814, 80.42608675131837],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_8a7c5019e66821837c4f269cc58ed75a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_061dde900b0f1083e6b2ec993f3b4825 = $(`<div id="html_061dde900b0f1083e6b2ec993f3b4825" style="width: 100.0%; height: 100.0%;">Textiles - Kurnool</div>`)[0];
+                popup_8a7c5019e66821837c4f269cc58ed75a.setContent(html_061dde900b0f1083e6b2ec993f3b4825);
+            
+        
+
+        marker_03ceef45fb60cd32ce4ef45f723a4feb.bindPopup(popup_8a7c5019e66821837c4f269cc58ed75a)
+        ;
+
+        
+    
+    
+            marker_03ceef45fb60cd32ce4ef45f723a4feb.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c11a328971d230043943ce2bcdc74a24 = L.marker(
+                [17.80074266946103, 78.05732032859927],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_3f6b51e667d90c023ccdb76d50997083 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b50142a8d3ea7ef0e567d9bb0c8eaffe = $(`<div id="html_b50142a8d3ea7ef0e567d9bb0c8eaffe" style="width: 100.0%; height: 100.0%;">IT Services - Vijayawada</div>`)[0];
+                popup_3f6b51e667d90c023ccdb76d50997083.setContent(html_b50142a8d3ea7ef0e567d9bb0c8eaffe);
+            
+        
+
+        marker_c11a328971d230043943ce2bcdc74a24.bindPopup(popup_3f6b51e667d90c023ccdb76d50997083)
+        ;
+
+        
+    
+    
+            marker_c11a328971d230043943ce2bcdc74a24.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_689f4daf2bc91ac7ed37a1887507b0de = L.marker(
+                [15.623385276949179, 79.99768666803368],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_151fc6f4abf27fdddc144073cc92cf75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d177f672b2fc3d3e1131cb5a631f2cfa = $(`<div id="html_d177f672b2fc3d3e1131cb5a631f2cfa" style="width: 100.0%; height: 100.0%;">IT Services - Tirupati</div>`)[0];
+                popup_151fc6f4abf27fdddc144073cc92cf75.setContent(html_d177f672b2fc3d3e1131cb5a631f2cfa);
+            
+        
+
+        marker_689f4daf2bc91ac7ed37a1887507b0de.bindPopup(popup_151fc6f4abf27fdddc144073cc92cf75)
+        ;
+
+        
+    
+    
+            marker_689f4daf2bc91ac7ed37a1887507b0de.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9eb9fb47e4432a6424cbcdef6446315 = L.marker(
+                [16.718671086312895, 80.43484074653854],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_65ebe8f5dff9b79156a1355af82952ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6247a20c3bf10a89f9e23064db569a25 = $(`<div id="html_6247a20c3bf10a89f9e23064db569a25" style="width: 100.0%; height: 100.0%;">Mining - Visakhapatnam</div>`)[0];
+                popup_65ebe8f5dff9b79156a1355af82952ec.setContent(html_6247a20c3bf10a89f9e23064db569a25);
+            
+        
+
+        marker_c9eb9fb47e4432a6424cbcdef6446315.bindPopup(popup_65ebe8f5dff9b79156a1355af82952ec)
+        ;
+
+        
+    
+    
+            marker_c9eb9fb47e4432a6424cbcdef6446315.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a03411131763fe7429e77ec353476bc = L.marker(
+                [16.508216519392157, 78.99718476780598],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_78ddece5f18e375a6f499a4b7f615fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9d8306ba435170e2cf0c3d8671b1f75 = $(`<div id="html_d9d8306ba435170e2cf0c3d8671b1f75" style="width: 100.0%; height: 100.0%;">IT Services - Guntur</div>`)[0];
+                popup_78ddece5f18e375a6f499a4b7f615fe4.setContent(html_d9d8306ba435170e2cf0c3d8671b1f75);
+            
+        
+
+        marker_8a03411131763fe7429e77ec353476bc.bindPopup(popup_78ddece5f18e375a6f499a4b7f615fe4)
+        ;
+
+        
+    
+    
+            marker_8a03411131763fe7429e77ec353476bc.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_beb9bf1593e626584c0063ebadbdf902 = L.marker(
+                [16.788500357255998, 80.80245940328643],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_d4bbddf807a7a489685241d315c2dd1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_463b445629b105d3a834af9459216597 = $(`<div id="html_463b445629b105d3a834af9459216597" style="width: 100.0%; height: 100.0%;">IT Services - Tirupati</div>`)[0];
+                popup_d4bbddf807a7a489685241d315c2dd1e.setContent(html_463b445629b105d3a834af9459216597);
+            
+        
+
+        marker_beb9bf1593e626584c0063ebadbdf902.bindPopup(popup_d4bbddf807a7a489685241d315c2dd1e)
+        ;
+
+        
+    
+    
+            marker_beb9bf1593e626584c0063ebadbdf902.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e834eb1e915dbbe15442f6fd52a346f8 = L.marker(
+                [17.01601839754679, 80.67346549170891],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_16f32373ccaf6ecfbd7ddb886f2f5edc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bdadd1e1efaae12019ef3441d6bc755 = $(`<div id="html_0bdadd1e1efaae12019ef3441d6bc755" style="width: 100.0%; height: 100.0%;">Mining - Vijayawada</div>`)[0];
+                popup_16f32373ccaf6ecfbd7ddb886f2f5edc.setContent(html_0bdadd1e1efaae12019ef3441d6bc755);
+            
+        
+
+        marker_e834eb1e915dbbe15442f6fd52a346f8.bindPopup(popup_16f32373ccaf6ecfbd7ddb886f2f5edc)
+        ;
+
+        
+    
+    
+            marker_e834eb1e915dbbe15442f6fd52a346f8.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_060bda5c2293f8590a75040a0fd5db51 = L.marker(
+                [16.42257756305499, 78.76066030928892],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_8b1befbcf46d54537adfd4b444b77f52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47cf5d9ba84c24049e0682d396c1096c = $(`<div id="html_47cf5d9ba84c24049e0682d396c1096c" style="width: 100.0%; height: 100.0%;">Mining - Guntur</div>`)[0];
+                popup_8b1befbcf46d54537adfd4b444b77f52.setContent(html_47cf5d9ba84c24049e0682d396c1096c);
+            
+        
+
+        marker_060bda5c2293f8590a75040a0fd5db51.bindPopup(popup_8b1befbcf46d54537adfd4b444b77f52)
+        ;
+
+        
+    
+    
+            marker_060bda5c2293f8590a75040a0fd5db51.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fab2613fd98fb298a1693efbe1d0194a = L.marker(
+                [15.006262912562976, 79.24859706852158],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_68160cfa0afad79951f4783faf78b030 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d411511a90a82d27f9f7e0faf267f64 = $(`<div id="html_4d411511a90a82d27f9f7e0faf267f64" style="width: 100.0%; height: 100.0%;">Manufacturing - Vijayawada</div>`)[0];
+                popup_68160cfa0afad79951f4783faf78b030.setContent(html_4d411511a90a82d27f9f7e0faf267f64);
+            
+        
+
+        marker_fab2613fd98fb298a1693efbe1d0194a.bindPopup(popup_68160cfa0afad79951f4783faf78b030)
+        ;
+
+        
+    
+    
+            marker_fab2613fd98fb298a1693efbe1d0194a.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84bfecceb0a8e68deff2a29746e521fd = L.marker(
+                [15.601035177013927, 79.14662836988612],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_a408611f7928d6fab41061c4e26d05c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12f37c62ea027c39888d90f78d1b33fb = $(`<div id="html_12f37c62ea027c39888d90f78d1b33fb" style="width: 100.0%; height: 100.0%;">Textiles - Vijayawada</div>`)[0];
+                popup_a408611f7928d6fab41061c4e26d05c6.setContent(html_12f37c62ea027c39888d90f78d1b33fb);
+            
+        
+
+        marker_84bfecceb0a8e68deff2a29746e521fd.bindPopup(popup_a408611f7928d6fab41061c4e26d05c6)
+        ;
+
+        
+    
+    
+            marker_84bfecceb0a8e68deff2a29746e521fd.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc78cbcd61c689313b38308b8bcc2084 = L.marker(
+                [15.032448823064867, 81.42516266444785],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_15b8a4b3f708aa74e441c90d2f049f17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_686fa065e30072c216f4c68955a91abe = $(`<div id="html_686fa065e30072c216f4c68955a91abe" style="width: 100.0%; height: 100.0%;">Textiles - Visakhapatnam</div>`)[0];
+                popup_15b8a4b3f708aa74e441c90d2f049f17.setContent(html_686fa065e30072c216f4c68955a91abe);
+            
+        
+
+        marker_bc78cbcd61c689313b38308b8bcc2084.bindPopup(popup_15b8a4b3f708aa74e441c90d2f049f17)
+        ;
+
+        
+    
+    
+            marker_bc78cbcd61c689313b38308b8bcc2084.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80a7166d6bcef3e6e294094be651e86f = L.marker(
+                [16.687753001270384, 81.8518303130641],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_f6484e7bc0b8bad9942ea7bf58ecdb49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_859e2907e0cf4e1a6f29f5e8998da547 = $(`<div id="html_859e2907e0cf4e1a6f29f5e8998da547" style="width: 100.0%; height: 100.0%;">IT Services - Guntur</div>`)[0];
+                popup_f6484e7bc0b8bad9942ea7bf58ecdb49.setContent(html_859e2907e0cf4e1a6f29f5e8998da547);
+            
+        
+
+        marker_80a7166d6bcef3e6e294094be651e86f.bindPopup(popup_f6484e7bc0b8bad9942ea7bf58ecdb49)
+        ;
+
+        
+    
+    
+            marker_80a7166d6bcef3e6e294094be651e86f.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_227e6ae618640c1b0de986938438a299 = L.marker(
+                [15.153192165368667, 79.30292485454594],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_b9aaab86f184f28e6e4e2c426d3a178f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c6654e3f243b7cfaad3bc55eb0c4b53 = $(`<div id="html_8c6654e3f243b7cfaad3bc55eb0c4b53" style="width: 100.0%; height: 100.0%;">Textiles - Guntur</div>`)[0];
+                popup_b9aaab86f184f28e6e4e2c426d3a178f.setContent(html_8c6654e3f243b7cfaad3bc55eb0c4b53);
+            
+        
+
+        marker_227e6ae618640c1b0de986938438a299.bindPopup(popup_b9aaab86f184f28e6e4e2c426d3a178f)
+        ;
+
+        
+    
+    
+            marker_227e6ae618640c1b0de986938438a299.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24cd05e2f0723c87ea0bcb22ad6e0d16 = L.marker(
+                [17.28911007242881, 78.52734217558492],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_b3776301c4bbcd399c6756ead5c54a89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56a9c11f1e5d4d1c3c5b1858a82090c1 = $(`<div id="html_56a9c11f1e5d4d1c3c5b1858a82090c1" style="width: 100.0%; height: 100.0%;">IT Services - Visakhapatnam</div>`)[0];
+                popup_b3776301c4bbcd399c6756ead5c54a89.setContent(html_56a9c11f1e5d4d1c3c5b1858a82090c1);
+            
+        
+
+        marker_24cd05e2f0723c87ea0bcb22ad6e0d16.bindPopup(popup_b3776301c4bbcd399c6756ead5c54a89)
+        ;
+
+        
+    
+    
+            marker_24cd05e2f0723c87ea0bcb22ad6e0d16.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59759bf39aa6d4162f8b53be1aa08569 = L.marker(
+                [15.759847902304552, 81.30672659515157],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_03064cf9b92c3e1af1dc3019b308b030 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c4b2d28a5b679d4f2b6245b07e181f4 = $(`<div id="html_7c4b2d28a5b679d4f2b6245b07e181f4" style="width: 100.0%; height: 100.0%;">Manufacturing - Tirupati</div>`)[0];
+                popup_03064cf9b92c3e1af1dc3019b308b030.setContent(html_7c4b2d28a5b679d4f2b6245b07e181f4);
+            
+        
+
+        marker_59759bf39aa6d4162f8b53be1aa08569.bindPopup(popup_03064cf9b92c3e1af1dc3019b308b030)
+        ;
+
+        
+    
+    
+            marker_59759bf39aa6d4162f8b53be1aa08569.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47cdda7dae03ef9d3a071777f0910938 = L.marker(
+                [16.674845197417707, 80.300173207997],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_b3e24d57d904ef2c6eee11dda967fb73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e46a8795f85eae075aedb0cec747ac0 = $(`<div id="html_7e46a8795f85eae075aedb0cec747ac0" style="width: 100.0%; height: 100.0%;">Mining - Vijayawada</div>`)[0];
+                popup_b3e24d57d904ef2c6eee11dda967fb73.setContent(html_7e46a8795f85eae075aedb0cec747ac0);
+            
+        
+
+        marker_47cdda7dae03ef9d3a071777f0910938.bindPopup(popup_b3e24d57d904ef2c6eee11dda967fb73)
+        ;
+
+        
+    
+    
+            marker_47cdda7dae03ef9d3a071777f0910938.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8585b1b6fe1341df24753d2a922081ed = L.marker(
+                [16.554967765697658, 80.15952452301303],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_219b703e32883f216f0763aff389c662 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6b02b1fa4cd61c3f8ca476748e0aeee = $(`<div id="html_e6b02b1fa4cd61c3f8ca476748e0aeee" style="width: 100.0%; height: 100.0%;">Mining - Kurnool</div>`)[0];
+                popup_219b703e32883f216f0763aff389c662.setContent(html_e6b02b1fa4cd61c3f8ca476748e0aeee);
+            
+        
+
+        marker_8585b1b6fe1341df24753d2a922081ed.bindPopup(popup_219b703e32883f216f0763aff389c662)
+        ;
+
+        
+    
+    
+            marker_8585b1b6fe1341df24753d2a922081ed.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96ee250f03940949d90f816b46e80328 = L.marker(
+                [16.150994509000395, 79.9032809225272],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_232c243f53710d52ec1b45057feb874e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b28378866c630c92451239cb26a8bda = $(`<div id="html_1b28378866c630c92451239cb26a8bda" style="width: 100.0%; height: 100.0%;">Mining - Vijayawada</div>`)[0];
+                popup_232c243f53710d52ec1b45057feb874e.setContent(html_1b28378866c630c92451239cb26a8bda);
+            
+        
+
+        marker_96ee250f03940949d90f816b46e80328.bindPopup(popup_232c243f53710d52ec1b45057feb874e)
+        ;
+
+        
+    
+    
+            marker_96ee250f03940949d90f816b46e80328.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57845aedcfcd969a37ef7bc763bf9e99 = L.marker(
+                [16.962659059934026, 79.73437441917152],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_4bec0c8484a0f7b9de0e91cc50ae7d11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d163bba495dd91c9c0916cc000c1012 = $(`<div id="html_4d163bba495dd91c9c0916cc000c1012" style="width: 100.0%; height: 100.0%;">Textiles - Vijayawada</div>`)[0];
+                popup_4bec0c8484a0f7b9de0e91cc50ae7d11.setContent(html_4d163bba495dd91c9c0916cc000c1012);
+            
+        
+
+        marker_57845aedcfcd969a37ef7bc763bf9e99.bindPopup(popup_4bec0c8484a0f7b9de0e91cc50ae7d11)
+        ;
+
+        
+    
+    
+            marker_57845aedcfcd969a37ef7bc763bf9e99.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_226fb8f387890093db5829566121efd4 = L.marker(
+                [15.566044048404416, 80.27334997372023],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_a796d5310be3ecb022fcf8732e354b70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c5e4e13f993face670df7558c4b8b24 = $(`<div id="html_9c5e4e13f993face670df7558c4b8b24" style="width: 100.0%; height: 100.0%;">Manufacturing - Tirupati</div>`)[0];
+                popup_a796d5310be3ecb022fcf8732e354b70.setContent(html_9c5e4e13f993face670df7558c4b8b24);
+            
+        
+
+        marker_226fb8f387890093db5829566121efd4.bindPopup(popup_a796d5310be3ecb022fcf8732e354b70)
+        ;
+
+        
+    
+    
+            marker_226fb8f387890093db5829566121efd4.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_951652b2d670598adb861e1c57365477 = L.marker(
+                [16.871820967860916, 81.99775143501084],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_1862ec4d30b64e747d11f1793ba101f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8868d27c0ac81765cbbdeda8ce959d24 = $(`<div id="html_8868d27c0ac81765cbbdeda8ce959d24" style="width: 100.0%; height: 100.0%;">Textiles - Vijayawada</div>`)[0];
+                popup_1862ec4d30b64e747d11f1793ba101f7.setContent(html_8868d27c0ac81765cbbdeda8ce959d24);
+            
+        
+
+        marker_951652b2d670598adb861e1c57365477.bindPopup(popup_1862ec4d30b64e747d11f1793ba101f7)
+        ;
+
+        
+    
+    
+            marker_951652b2d670598adb861e1c57365477.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8d04da5d9f0d79526bff49e7fbc6958 = L.marker(
+                [17.30458089461505, 81.36278833884367],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_94ed1828fb5cca9ffec526f2c96c6cf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34f345da329e4a182b32999d00577c0b = $(`<div id="html_34f345da329e4a182b32999d00577c0b" style="width: 100.0%; height: 100.0%;">Textiles - Visakhapatnam</div>`)[0];
+                popup_94ed1828fb5cca9ffec526f2c96c6cf4.setContent(html_34f345da329e4a182b32999d00577c0b);
+            
+        
+
+        marker_d8d04da5d9f0d79526bff49e7fbc6958.bindPopup(popup_94ed1828fb5cca9ffec526f2c96c6cf4)
+        ;
+
+        
+    
+    
+            marker_d8d04da5d9f0d79526bff49e7fbc6958.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a4f4781fff7c3e62a861743076c393b = L.marker(
+                [17.489817471421233, 81.82790818042412],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_cb49a7d519d31d1d4993d9b7a47092a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b37f94c124848f398fade63e48d08ebe = $(`<div id="html_b37f94c124848f398fade63e48d08ebe" style="width: 100.0%; height: 100.0%;">Manufacturing - Visakhapatnam</div>`)[0];
+                popup_cb49a7d519d31d1d4993d9b7a47092a1.setContent(html_b37f94c124848f398fade63e48d08ebe);
+            
+        
+
+        marker_6a4f4781fff7c3e62a861743076c393b.bindPopup(popup_cb49a7d519d31d1d4993d9b7a47092a1)
+        ;
+
+        
+    
+    
+            marker_6a4f4781fff7c3e62a861743076c393b.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cf3171af4f0cdbeea68f642aa64b00c = L.marker(
+                [16.527808662965658, 78.82570298350566],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_0a5833c618b91e5d06f138b08a8e6148 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5660ad82533c24c69d655f2e147dcdda = $(`<div id="html_5660ad82533c24c69d655f2e147dcdda" style="width: 100.0%; height: 100.0%;">Manufacturing - Guntur</div>`)[0];
+                popup_0a5833c618b91e5d06f138b08a8e6148.setContent(html_5660ad82533c24c69d655f2e147dcdda);
+            
+        
+
+        marker_1cf3171af4f0cdbeea68f642aa64b00c.bindPopup(popup_0a5833c618b91e5d06f138b08a8e6148)
+        ;
+
+        
+    
+    
+            marker_1cf3171af4f0cdbeea68f642aa64b00c.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b84c6e4c8c9929956c26f2f0482bb10d = L.marker(
+                [17.93114085422842, 81.76445464785185],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_108b16e5c9efbed5dc45dc1491948ba1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30a72453f773874a1854fa348b2635e4 = $(`<div id="html_30a72453f773874a1854fa348b2635e4" style="width: 100.0%; height: 100.0%;">Manufacturing - Kurnool</div>`)[0];
+                popup_108b16e5c9efbed5dc45dc1491948ba1.setContent(html_30a72453f773874a1854fa348b2635e4);
+            
+        
+
+        marker_b84c6e4c8c9929956c26f2f0482bb10d.bindPopup(popup_108b16e5c9efbed5dc45dc1491948ba1)
+        ;
+
+        
+    
+    
+            marker_b84c6e4c8c9929956c26f2f0482bb10d.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_103ddf4383e4423bc2e301a6b9cb4be7 = L.marker(
+                [17.02132433569209, 81.10377609313403],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_9034eae2c181ce8f0f8aaafb6fdf4334 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_389d1ede8b3245c8815e15f874880457 = $(`<div id="html_389d1ede8b3245c8815e15f874880457" style="width: 100.0%; height: 100.0%;">Manufacturing - Vijayawada</div>`)[0];
+                popup_9034eae2c181ce8f0f8aaafb6fdf4334.setContent(html_389d1ede8b3245c8815e15f874880457);
+            
+        
+
+        marker_103ddf4383e4423bc2e301a6b9cb4be7.bindPopup(popup_9034eae2c181ce8f0f8aaafb6fdf4334)
+        ;
+
+        
+    
+    
+            marker_103ddf4383e4423bc2e301a6b9cb4be7.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85adf7cbcec12a4eacf18aee24ce29ff = L.marker(
+                [15.593552695954097, 81.55013874216651],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_4e36c1cd608f733e5d0c3c073a02159c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4aed1993e8d0dcfe7f089b99508796ca = $(`<div id="html_4aed1993e8d0dcfe7f089b99508796ca" style="width: 100.0%; height: 100.0%;">Mining - Vijayawada</div>`)[0];
+                popup_4e36c1cd608f733e5d0c3c073a02159c.setContent(html_4aed1993e8d0dcfe7f089b99508796ca);
+            
+        
+
+        marker_85adf7cbcec12a4eacf18aee24ce29ff.bindPopup(popup_4e36c1cd608f733e5d0c3c073a02159c)
+        ;
+
+        
+    
+    
+            marker_85adf7cbcec12a4eacf18aee24ce29ff.bindTooltip(
+                `<div>
+                     Mining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e512d71b3d8d967e7ff6b51572693465 = L.marker(
+                [15.1559782073486, 78.78220731052015],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_e6d75ed9c3cc0aa75e0bd0bc4c27328f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cf54df1d81508d93d73cfcf393c9417 = $(`<div id="html_3cf54df1d81508d93d73cfcf393c9417" style="width: 100.0%; height: 100.0%;">Agriculture - Tirupati</div>`)[0];
+                popup_e6d75ed9c3cc0aa75e0bd0bc4c27328f.setContent(html_3cf54df1d81508d93d73cfcf393c9417);
+            
+        
+
+        marker_e512d71b3d8d967e7ff6b51572693465.bindPopup(popup_e6d75ed9c3cc0aa75e0bd0bc4c27328f)
+        ;
+
+        
+    
+    
+            marker_e512d71b3d8d967e7ff6b51572693465.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_430e977355caac5b08dfe6de63f7b8a2 = L.marker(
+                [16.01156802502436, 81.40801673886818],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_a3f27f4e1c48c430eec2d8e35f6e144c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45f052128589fb6aa67b079b931fa1ed = $(`<div id="html_45f052128589fb6aa67b079b931fa1ed" style="width: 100.0%; height: 100.0%;">Agriculture - Visakhapatnam</div>`)[0];
+                popup_a3f27f4e1c48c430eec2d8e35f6e144c.setContent(html_45f052128589fb6aa67b079b931fa1ed);
+            
+        
+
+        marker_430e977355caac5b08dfe6de63f7b8a2.bindPopup(popup_a3f27f4e1c48c430eec2d8e35f6e144c)
+        ;
+
+        
+    
+    
+            marker_430e977355caac5b08dfe6de63f7b8a2.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a71cf7153ae8db9750414f1f018491de = L.marker(
+                [16.126473250272042, 78.83036909262724],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_46eaf5802ede886d4b971f812efed406 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec509ac4581308cf9b80d713c78c14d9 = $(`<div id="html_ec509ac4581308cf9b80d713c78c14d9" style="width: 100.0%; height: 100.0%;">Manufacturing - Kurnool</div>`)[0];
+                popup_46eaf5802ede886d4b971f812efed406.setContent(html_ec509ac4581308cf9b80d713c78c14d9);
+            
+        
+
+        marker_a71cf7153ae8db9750414f1f018491de.bindPopup(popup_46eaf5802ede886d4b971f812efed406)
+        ;
+
+        
+    
+    
+            marker_a71cf7153ae8db9750414f1f018491de.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f0c0859457cdc665054cd00660c964e = L.marker(
+                [16.644308745175195, 81.61141903432905],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_ca9f863c77d1c3aa8247372638c480a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2440f67d42a0b76fb69d1e676a93576 = $(`<div id="html_b2440f67d42a0b76fb69d1e676a93576" style="width: 100.0%; height: 100.0%;">Agriculture - Guntur</div>`)[0];
+                popup_ca9f863c77d1c3aa8247372638c480a5.setContent(html_b2440f67d42a0b76fb69d1e676a93576);
+            
+        
+
+        marker_9f0c0859457cdc665054cd00660c964e.bindPopup(popup_ca9f863c77d1c3aa8247372638c480a5)
+        ;
+
+        
+    
+    
+            marker_9f0c0859457cdc665054cd00660c964e.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3ea906d1cf5c74153a8a3ea57a8ae47 = L.marker(
+                [15.452260732920188, 79.56648154967576],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_f3fc1a74976b2d6c9ea38c91f9bbeff5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87dd720b52a81117593ddf8642e3311a = $(`<div id="html_87dd720b52a81117593ddf8642e3311a" style="width: 100.0%; height: 100.0%;">Agriculture - Visakhapatnam</div>`)[0];
+                popup_f3fc1a74976b2d6c9ea38c91f9bbeff5.setContent(html_87dd720b52a81117593ddf8642e3311a);
+            
+        
+
+        marker_b3ea906d1cf5c74153a8a3ea57a8ae47.bindPopup(popup_f3fc1a74976b2d6c9ea38c91f9bbeff5)
+        ;
+
+        
+    
+    
+            marker_b3ea906d1cf5c74153a8a3ea57a8ae47.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bf42d23001cfb458466c75a6cb4377c = L.marker(
+                [16.36461134649532, 81.35083267701395],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_18033555b1b073124a0266b00c27a382 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f590e7f504335333572bddd6dc558824 = $(`<div id="html_f590e7f504335333572bddd6dc558824" style="width: 100.0%; height: 100.0%;">Manufacturing - Guntur</div>`)[0];
+                popup_18033555b1b073124a0266b00c27a382.setContent(html_f590e7f504335333572bddd6dc558824);
+            
+        
+
+        marker_3bf42d23001cfb458466c75a6cb4377c.bindPopup(popup_18033555b1b073124a0266b00c27a382)
+        ;
+
+        
+    
+    
+            marker_3bf42d23001cfb458466c75a6cb4377c.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b97d644e2255e1593aa461a6b836642c = L.marker(
+                [16.445675692969687, 80.1845053130984],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_f02ed8c5b11d56632c74c1bb05f94bd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b727553748b9b79004fcfdd7cd750768 = $(`<div id="html_b727553748b9b79004fcfdd7cd750768" style="width: 100.0%; height: 100.0%;">Agriculture - Tirupati</div>`)[0];
+                popup_f02ed8c5b11d56632c74c1bb05f94bd5.setContent(html_b727553748b9b79004fcfdd7cd750768);
+            
+        
+
+        marker_b97d644e2255e1593aa461a6b836642c.bindPopup(popup_f02ed8c5b11d56632c74c1bb05f94bd5)
+        ;
+
+        
+    
+    
+            marker_b97d644e2255e1593aa461a6b836642c.bindTooltip(
+                `<div>
+                     Agriculture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e70793525d72d06d8fb31bb6ffcccb7 = L.marker(
+                [16.69509909939092, 80.32781500075188],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_2b7627a3ae2ad9b5d42998af5618d38a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1fd65fed398c543e5989bb84636c898 = $(`<div id="html_f1fd65fed398c543e5989bb84636c898" style="width: 100.0%; height: 100.0%;">Textiles - Tirupati</div>`)[0];
+                popup_2b7627a3ae2ad9b5d42998af5618d38a.setContent(html_f1fd65fed398c543e5989bb84636c898);
+            
+        
+
+        marker_1e70793525d72d06d8fb31bb6ffcccb7.bindPopup(popup_2b7627a3ae2ad9b5d42998af5618d38a)
+        ;
+
+        
+    
+    
+            marker_1e70793525d72d06d8fb31bb6ffcccb7.bindTooltip(
+                `<div>
+                     Textiles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78dca1db6126441b582cdb70a055af3e = L.marker(
+                [17.866533402629653, 79.1117197604342],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_1127ffb6bd0ca2608cc6f4502d13f19d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbc09aeed81e6c2c425442e6a4c27419 = $(`<div id="html_cbc09aeed81e6c2c425442e6a4c27419" style="width: 100.0%; height: 100.0%;">IT Services - Vijayawada</div>`)[0];
+                popup_1127ffb6bd0ca2608cc6f4502d13f19d.setContent(html_cbc09aeed81e6c2c425442e6a4c27419);
+            
+        
+
+        marker_78dca1db6126441b582cdb70a055af3e.bindPopup(popup_1127ffb6bd0ca2608cc6f4502d13f19d)
+        ;
+
+        
+    
+    
+            marker_78dca1db6126441b582cdb70a055af3e.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68397a291dd293d477b4908ee0bc373e = L.marker(
+                [15.332880890901745, 78.66502684933002],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_6f32c669fc576cfae38e80252feeb7b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6a0278288e4db7a2743371b3a226fb8 = $(`<div id="html_b6a0278288e4db7a2743371b3a226fb8" style="width: 100.0%; height: 100.0%;">IT Services - Kurnool</div>`)[0];
+                popup_6f32c669fc576cfae38e80252feeb7b9.setContent(html_b6a0278288e4db7a2743371b3a226fb8);
+            
+        
+
+        marker_68397a291dd293d477b4908ee0bc373e.bindPopup(popup_6f32c669fc576cfae38e80252feeb7b9)
+        ;
+
+        
+    
+    
+            marker_68397a291dd293d477b4908ee0bc373e.bindTooltip(
+                `<div>
+                     IT Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00ce55267a8fe18c014129462cdc568b = L.marker(
+                [16.50122736719789, 80.63629505275377],
+                {}
+            ).addTo(map_7acad2126038dfc876fe5c8038e65a8f);
+        
+    
+        var popup_d0c0898b7163b63f589af3426486ebf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41f78fc06f3bc460032c4b51ca0051b7 = $(`<div id="html_41f78fc06f3bc460032c4b51ca0051b7" style="width: 100.0%; height: 100.0%;">Manufacturing - Guntur</div>`)[0];
+                popup_d0c0898b7163b63f589af3426486ebf9.setContent(html_41f78fc06f3bc460032c4b51ca0051b7);
+            
+        
+
+        marker_00ce55267a8fe18c014129462cdc568b.bindPopup(popup_d0c0898b7163b63f589af3426486ebf9)
+        ;
+
+        
+    
+    
+            marker_00ce55267a8fe18c014129462cdc568b.bindTooltip(
+                `<div>
+                     Manufacturing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
