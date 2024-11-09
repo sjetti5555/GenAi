@@ -1,0 +1,32 @@
+ https://www.dunkindonuts.com/en
+ https://www.dunkindonuts.com/en#main-content
+/
+/en
+/en/about/about-us
+/en/about/contact-us/faqs
+/en/account/dunkinrewards
+/en/account/manage-payments
+/en/account/profile-management
+/en/account/report-card-stolen
+/en/account/transaction-history
+/en/ca-transparency-in-supply-chain
+/en/consumer-rights
+/en/do-not-sell
+/en/dunkin-cards/check-balance
+/en/dunkin-cards/gift-cards
+/en/dunkin-delivers
+/en/dunkinrewards
+/en/dunkinrewards/registration
+/en/locations
+/en/m-menu
+/en/menu
+/en/menu/nutrition
+/en/mobile-app
+/en/privacy-policy
+/en/privacy-policy#tracking
+/en/shop
+/en/sign-in
+/en/site-map
+/en/sustainability
+/en/terms-of-use
+/en/web-accessibility

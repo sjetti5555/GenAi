@@ -1,0 +1,10 @@
+requests
+bs4 
+urllib.parse 
+os
+signal
+sys
+re
+pagesizes 
+platypus
+styles 
