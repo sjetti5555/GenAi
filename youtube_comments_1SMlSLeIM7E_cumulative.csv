@@ -1,0 +1,25 @@
+timestamp,original_comment,processed_comment,sentiment_score,subjectivity_score,sentiment_category,word_count
+2024-11-14 17:32:59,"This was exactly what I needed, thanks!",exactly needed thanks,0.25,0.225,Positive,3
+2024-11-14 17:32:59,"Fantastic explanation, thank you!",fantastic explanation thank,0.5,0.9,Positive,3
+2024-11-14 17:32:59,"Awesome video, looking forward to the next one!",awesome video looking forward next one,0.5,0.5,Positive,6
+2024-11-14 17:32:59,"I clicked on this at random, and this music wasn't meant to be this amazing. This is making me jump out of my chair. Please stop creating such amazing music; I can't stop listening to it. I'm getting a soft spot.",clicked random music wasnt meant amazing making jump chair please stop creating amazing music cant stop listening im getting soft spot,0.16000000000000003,0.63,Positive,21
+2024-11-14 17:32:59,"Thank you for this video, very enlightening!",thank video enlightening,0.48750000000000004,0.52,Positive,3
+2024-11-14 17:32:59,"Your videos are always so helpful, thank you!",video always helpful thank,0.0,0.0,Neutral,4
+2024-11-14 17:32:59,"Great tips, thanks for sharing!",great tip thanks sharing,0.525,0.475,Positive,4
+2024-11-14 17:32:59,Really appreciate the insights in this video.,really appreciate insight video,0.2,0.2,Positive,4
+2024-11-14 17:32:59,"Loved the content, keep it coming!",loved content keep coming,0.875,0.8,Positive,4
+2024-11-14 17:32:59,"This was super helpful, thanks!",super helpful thanks,0.29166666666666663,0.43333333333333335,Positive,3
+2024-11-14 17:32:59,"Very well done, appreciate this video!",well done appreciate video,0.25,0.3,Positive,4
+2024-11-14 17:32:59,"These dudes figured,  hell if Tommy Richman did it... let's go for it",dude figured hell tommy richman let go,0.0,0.0,Neutral,7
+2024-11-14 17:32:59,"He is literally the most underappreciated, talented, and eccentrically stylish musician in R&B right now. I adore how crazy he is about being the hardest worker.",literally underappreciated talented eccentrically stylish musician rb right adore crazy hardest worker,0.27714285714285714,0.7671428571428571,Positive,12
+2024-11-14 17:32:59,"Great job, this video was very useful!",great job video useful,0.64375,0.375,Positive,4
+2024-11-14 17:32:59,"This video was amazing, learned a lot.",video amazing learned lot,0.6000000000000001,0.9,Positive,4
+2024-11-14 17:32:59,"Watch the Song Break Down For 'Soft Spot' Here - https://www.youtube.com/watch?v=jQLJFicS4m4&t=2287s
+Watch the 'Soft Spot' Original Music Video Here - https://www.youtube.com/watch?v=LKKrnjfH3nQ",watch song break soft spot httpswwwyoutubecomwatchvjqljficsmts watch soft spot original music video httpswwwyoutubecomwatchvlkkrnjfhnq,0.1048611111111111,0.43472222222222223,Positive,13
+2024-11-14 17:32:59,Amazing content as always!,amazing content always,0.7500000000000001,0.9,Positive,3
+2024-11-14 17:32:59,"Loved this video, keep up the great work!",loved video keep great work,0.85,0.775,Positive,5
+2024-11-14 17:32:59,"I randomly clicked on this, this music wasn’t supposed to be so fcken good wtf this shit making me levitate out of my chair stop making such good music I can’t get it out of my head I GOT A SOFT SPOTT",randomly clicked music wasnt supposed fcken good wtf shit making levitate chair stop making good music cant get head got soft spott,0.04285714285714285,0.6214285714285713,Positive,22
+2024-11-14 17:32:59,"Fantastic video, really appreciate your effort!",fantastic video really appreciate effort,0.325,0.55,Positive,5
+2024-11-14 17:32:59,Great video! Really enjoyed it.,great video really enjoyed,0.75,0.725,Positive,4
+2024-11-14 17:32:59,Thank you for the great content!,thank great content,1.0,0.75,Positive,3
+2024-11-14 17:32:59,"Thanks for sharing this, learned a lot.",thanks sharing learned lot,0.2,0.2,Positive,4
