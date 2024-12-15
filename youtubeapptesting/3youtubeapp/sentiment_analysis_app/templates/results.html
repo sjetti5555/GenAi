@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Analysis - Sentiment Analysis App</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f9fafb;
+            font-family: 'Roboto', sans-serif;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #0056b3;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        .badge {
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-5">
+        <!-- Header -->
+        <div class="header">
+            <h1>Comment Analysis</h1>
+            <p>Detailed sentiment analysis of comments from the video</p>
+        </div>
+
+        <!-- Main Content -->
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="card shadow-lg border-0">
+                    <div class="card-body">
+                        {% if comments %}
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered">
+                                <thead class="table-primary">
+                                    <tr>
+                                        <th scope="col">Author</th>
+                                        <th scope="col">Comment</th>
+                                        <th scope="col">Sentiment</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for comment in comments %}
+                                    <tr>
+                                        <td>{{ comment['author'] }}</td>
+                                        <td>{{ comment['text'] }}</td>
+                                        <td>
+                                            <span class="badge {% if comment['sentiment']['label'] == 'Positive' %}bg-success{% elif comment['sentiment']['label'] == 'Neutral' %}bg-secondary{% else %}bg-danger{% endif %}">
+                                                {{ comment['sentiment']['label'] }} ({{ comment['sentiment']['score'] }})
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                        {% else %}
+                        <div class="alert alert-warning text-center" role="alert">
+                            <strong>No comments available for analysis.</strong>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="/dashboard" class="btn btn-primary">Back to Dashboard</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

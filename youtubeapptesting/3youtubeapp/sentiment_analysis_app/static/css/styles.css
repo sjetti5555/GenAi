@@ -1,0 +1,235 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(to right, #f4f4f4, #e8e8e8);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container Styling */
+.container {
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: #007BFF;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 2.1rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    color: #333;
+}
+
+/* Forms and Inputs */
+form {
+    margin-bottom: 25px;
+    padding: 25px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+input, select, button, textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Buttons */
+button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background: #004494;
+    transform: translateY(0);
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Alerts */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 25px;
+    background-color: #f9f9f9;
+}
+
+.card-footer {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Badge Styling for Sentiments */
+.badge-positive {
+    background-color: #28a745;
+    color: white;
+}
+
+.badge-neutral {
+    background-color: #6c757d;
+    color: white;
+}
+
+.badge-negative {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-footer {
+        padding: 15px;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+}

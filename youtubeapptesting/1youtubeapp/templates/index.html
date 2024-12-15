@@ -1,0 +1,43 @@
+<script>
+    const form = document.getElementById('analyze-form');
+    const resultsDiv = document.getElementById('results');
+    const graphDiv = document.getElementById('graph');
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        resultsDiv.innerHTML = "<p>Loading...</p>";
+        graphDiv.innerHTML = "";
+
+        const video_url = document.getElementById('video_url').value;
+
+        // Send POST request to Flask backend
+        const response = await fetch('/analyze', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: `video_url=${encodeURIComponent(video_url)}`
+        });
+
+        const data = await response.json();
+
+        if (data.error) {
+            resultsDiv.innerHTML = `<div class="alert alert-danger">${data.error}</div>`;
+        } else {
+            const results = data.results.map(r => 
+                `<p><b>${r.author}</b>: ${r.comment} - <b>${r.sentiment}</b> (${r.confidence})</p>`
+            ).join("");
+
+            resultsDiv.innerHTML = `
+                <div class="alert alert-success"><b>Analysis Complete!</b></div>
+                <p><b>Overall Sentiment:</b> ${data.overall_sentiment}</p>
+                <p><b>Positive Comments:</b> ${data.positive_count}</p>
+                <p><b>Neutral Comments:</b> ${data.neutral_count}</p>
+                <p><b>Negative Comments:</b> ${data.negative_count}</p>
+                ${results}
+            `;
+
+            if (data.graph_url) {
+                graphDiv.innerHTML = `<img src="${data.graph_url}" alt="Sentiment Graph" class="img-fluid">`;
+            }
+        }
+    });
+</script>
