@@ -13,7 +13,7 @@ from io import BytesIO
 app = Flask(__name__)
 
 # YouTube API Configuration
-API_KEY = 'AIzaSyCuM07jYUqnGTjncnNop5TLz8vgZ0vSKWQ'  # Replace with your YouTube API Key
+API_KEY = ''  # Replace with your YouTube API Key
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 
