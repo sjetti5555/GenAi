@@ -20,7 +20,7 @@ nltk.download('wordnet')
 
 class YouTubeSentimentAnalyzer:
     def __init__(self, api_key, video_id):
-        self.api_key = 'AIzaSyADnCA_k6P_mfndvl55k9ypNXk3WFKQSrY'
+        self.api_key = 'Your API Key'
         self.video_id = '1SMlSLeIM7E'
         self.youtube = build('youtube', 'v3', developerKey=self.api_key)
         self.comments = []
