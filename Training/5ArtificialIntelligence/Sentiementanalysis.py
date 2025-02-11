@@ -21,7 +21,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 # API setup
-API_KEY = 'AIzaSyADnCA_k6P_mfndvl55k9ypNXk3WFKQSrY'
+API_KEY = 'Your API key'
 VIDEO_ID = 'cG18_T-EsA4'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
