@@ -1,2 +1,0 @@
-*.dll filter=lfs diff=lfs merge=lfs -text
-# my-env/Lib/site-packages/xgboost/lib/xgboost.dll filter=lfs diff=lfs merge=lfs -text
