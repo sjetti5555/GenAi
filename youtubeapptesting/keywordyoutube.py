@@ -100,7 +100,7 @@ def search_videos(keyword, api_key, max_results, order="viewCount", date_filter=
 # Main Script
 if __name__ == "__main__":
     # API Key
-    API_KEY = "AIzaSyCMx6x5zWLPcZ7MBo4d94Sq-pPZ1K10zIo"
+    API_KEY = "YOUTUBE_API_KEY"
 
     # Input Keyword and Search Preference
     keyword = input("Enter a keyword to search videos: ")
