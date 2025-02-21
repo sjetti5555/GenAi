@@ -12,7 +12,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Initialize YouTube API
-api_key = 'AIzaSyCuM07jYUqnGTjncnNop5TLz8vgZ0vSKWQ'  # Replace with your YouTube Data API key
+api_key = 'Youtube_Api_key'  # Replace with your YouTube Data API key
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Initialize sentiment analysis model
