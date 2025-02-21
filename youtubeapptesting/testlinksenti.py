@@ -169,7 +169,7 @@ def add_sentiment_to_videos(video_data, api_key):
     return video_data
 
 if __name__ == "__main__":
-    API_KEY = "AIzaSyCMx6x5zWLPcZ7MBo4d94Sq-pPZ1K10zIo"
+    API_KEY = "Youtube_api_key"
     channel_name = input("Enter the channel name (case-sensitive and space-sensitive): ").strip()
     channel_id = get_channel_id(channel_name, API_KEY)
     if not channel_id:
