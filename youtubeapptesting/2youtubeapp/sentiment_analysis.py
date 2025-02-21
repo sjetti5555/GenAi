@@ -7,7 +7,7 @@ from transformers import pipeline
 from langdetect import detect, LangDetectException
 
 # Initialize API and sentiment analysis
-api_key = 'AIzaSyCuM07jYUqnGTjncnNop5TLz8vgZ0vSKWQ'
+api_key = 'Youtube_APi_key'
 youtube = build('youtube', 'v3', developerKey=api_key)
 model_name = "nlptown/bert-base-multilingual-uncased-sentiment"
 sentiment_analyzer = pipeline("sentiment-analysis", model=model_name)
