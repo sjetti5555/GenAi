@@ -98,7 +98,7 @@ def calculate_overall_summary(df):
 # 6. Main Script
 if __name__ == "__main__":
     # API Key and Input from User
-    API_KEY = "AIzaSyCMx6x5zWLPcZ7MBo4d94Sq-pPZ1K10zIo"
+    API_KEY = " youtube api key "
     VIDEO_ID = input("Enter YouTube video ID: ").strip()
 
     print("Fetching comments...")
