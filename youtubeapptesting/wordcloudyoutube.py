@@ -80,7 +80,7 @@ def generate_wordcloud(text, title):
 
 # Main Script
 if __name__ == "__main__":
-    API_KEY = "AIzaSyCuM07jYUqnGTjncnNop5TLz8vgZ0vSKWQ"
+    API_KEY = "Youtube_Api_key"
     video_link = input("Enter YouTube video link: ").strip()
     video_id = re.search(r"v=([^&]+)", video_link).group(1) if "v=" in video_link else None
 
