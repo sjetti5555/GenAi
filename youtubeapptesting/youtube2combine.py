@@ -84,7 +84,7 @@ def extract_video_id(video_link):
 
 # Main Script with Task Selection
 if __name__ == "__main__":
-    API_KEY = "AIzaSyCuM07jYUqnGTjncnNop5TLz8vgZ0vSKWQ"
+    API_KEY = "Youtube_api_key"
     
     # Select Task
     task = input("Enter task (1: Fetch comments and analyze, 2: Search for videos): ").strip()
