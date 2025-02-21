@@ -182,7 +182,7 @@ def fetch_comments(video_id, api_key, max_comments=100):
 
 # Main execution
 if __name__ == "__main__":
-    API_KEY = "AIzaSyCMx6x5zWLPcZ7MBo4d94Sq-pPZ1K10zIo"
+    API_KEY = "Youtube_api_key"
     channel_name = input("Enter channel name: ").strip()
     channel_id = get_channel_id(channel_name, API_KEY)
 
