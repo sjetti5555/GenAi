@@ -63,7 +63,7 @@ def analyze_sentiment(comments):
 # 4. Main Script
 if __name__ == "__main__":
     # API Key and Video ID
-    API_KEY = "AIzaSyCuM07jYUqnGTjncnNop5TLz8vgZ0vSKWQ"
+    API_KEY = "Youtube API Key"
     VIDEO_ID = "EGF8PUQwXGc"
 
     print("Fetching comments...")
