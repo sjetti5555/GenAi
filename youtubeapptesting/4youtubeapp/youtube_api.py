@@ -2,7 +2,7 @@ import re
 from googleapiclient.discovery import build
 from datetime import datetime, timedelta
 
-api_key = 'AIzaSyCuM07jYUqnGTjncnNop5TLz8vgZ0vSKWQ'
+api_key = 'Youtube_api_key'
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 def extract_video_id(url):
