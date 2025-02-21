@@ -210,8 +210,8 @@ def analyze_job(api_key, video_id, is_initial=False):
 
 def main():
     # YouTube API credentials
-    API_KEY = 'AIzaSyADnCA_k6P_mfndvl55k9ypNXk3WFKQSrY'
-    VIDEO_ID = '1SMlSLeIM7E'
+    API_KEY = 'Youtube_api_key'
+    VIDEO_ID = 'Youtube_video_id'
     
     print("Starting YouTube Comment Sentiment Analysis")
     print(f"Video URL: https://www.youtube.com/watch?v={VIDEO_ID}")
