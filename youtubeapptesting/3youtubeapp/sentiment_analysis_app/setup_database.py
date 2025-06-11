@@ -1,4 +1,5 @@
 import sqlite3
+import os
 
 def setup_database():
     """
@@ -7,7 +8,7 @@ def setup_database():
     """
     try:
         # Connect to SQLite database (creates the file if it doesn't exist)
-        conn = sqlite3.connect("database.db")
+        conn = sqlite3.connect(os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "database.db"))
         cursor = conn.cursor()
 
         # Create the 'users' table
