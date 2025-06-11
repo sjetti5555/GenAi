@@ -6,10 +6,12 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, confusion_matrix
 import numpy as np
+from pathlib import Path
 
 # Load the dataset
-file_path = r'C:\Users\srira\OneDrive\Desktop\Gen_AI\Training\AllDomains\Loan_Default.csv'  # Update this path
-data = pd.read_csv(file_path)
+# Load dataset from the shared data directory
+DATA_DIR = Path(__file__).resolve().parents[2] / 'data'
+data = pd.read_csv(DATA_DIR / 'Loan_Default.csv')
 
 # Display the first few rows of the dataset
 print("First few rows of the dataset:")

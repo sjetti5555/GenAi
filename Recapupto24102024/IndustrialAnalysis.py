@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from pathlib import Path
 from sklearn.cluster import KMeans
 from sklearn.linear_model import LinearRegression
 from scipy import stats
@@ -95,7 +96,8 @@ print(f"Chi-Square Test p-value: {p}")
 
 # Module 7: Database Integration
 # Create SQLite database and store the dataframe
-conn = sqlite3.connect('industrial_policy.db')
+DATA_DIR = Path(__file__).resolve().parent.parent / 'data'
+conn = sqlite3.connect(DATA_DIR / 'industrial_policy.db')
 df.to_sql('policy_data', conn, if_exists='replace', index=False)
 query_result = pd.read_sql('SELECT * FROM policy_data', conn)
 print("Data from SQLite Database:\n", query_result)

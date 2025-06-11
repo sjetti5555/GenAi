@@ -1,8 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from pathlib import Path
 
-# Read the CSV file
-df = pd.read_csv('EV_Dataset.csv')
+# Read the CSV file from the central data directory
+DATA_DIR = Path(__file__).resolve().parent.parent / 'data'
+df = pd.read_csv(DATA_DIR / 'EV_Dataset.csv')
 
 # Print the first few rows of the DataFrame
 print("First few rows of the DataFrame:")
