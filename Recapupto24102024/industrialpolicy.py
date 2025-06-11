@@ -7,6 +7,7 @@ from scipy.stats import linregress, norm, ttest_ind, chi2_contingency
 import sqlite3
 import random
 import folium
+from pathlib import Path
 
 # Step 1: Data Collection and Storage
 # Simulate industry data for Andhra Pradesh
@@ -22,7 +23,7 @@ industry_data = {
 industry_df = pd.DataFrame(industry_data)
 
 # Store data into an SQLite database
-conn = sqlite3.connect('../data/andhra_pradesh_industry_data.db')
+
 industry_df.to_sql('industry', conn, if_exists='replace', index=False)
 print("Data stored in SQLite database.")
 

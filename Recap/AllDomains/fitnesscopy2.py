@@ -6,10 +6,11 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, confusion_matrix
 import numpy as np
+from pathlib import Path
 
 # Load the dataset
 # Load dataset from the shared data directory
-data = pd.read_csv('../../data/Loan_Default.csv')
+
 
 # Display the first few rows of the dataset
 print("First few rows of the dataset:")

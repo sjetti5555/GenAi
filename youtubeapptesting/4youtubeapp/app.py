@@ -1,14 +1,17 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 from youtube_sentiment import extract_video_id, get_video_comments, create_csv  # Your existing functions
 import sqlite3
-import os
+
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY", "dev")
 
 # Database Setup
+BASE_DIR = Path(__file__).resolve().parents[2]
+DB_PATH = BASE_DIR / 'data' / 'database.db'
+
 def init_db():
-    conn = sqlite3.connect('../../data/database.db')
+
     conn.execute('''CREATE TABLE IF NOT EXISTS users
                     (id INTEGER PRIMARY KEY AUTOINCREMENT,
                     firstname TEXT,
@@ -27,7 +30,7 @@ def index():
 @app.route('/signup', methods=['POST'])
 def signup():
     data = request.form
-    conn = sqlite3.connect('../../data/database.db')
+
     try:
         conn.execute("INSERT INTO users (firstname, lastname, sex, mobile, username, password) VALUES (?, ?, ?, ?, ?, ?)",
                      (data['firstname'], data['lastname'], data['sex'], data['mobile'], data['username'], data['password']))
@@ -41,7 +44,7 @@ def signup():
 @app.route('/login', methods=['POST'])
 def login():
     data = request.form
-    conn = sqlite3.connect('../../data/database.db')
+
     cursor = conn.execute("SELECT * FROM users WHERE username = ? AND password = ?", (data['username'], data['password']))
     user = cursor.fetchone()
     conn.close()

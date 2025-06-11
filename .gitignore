@@ -1,6 +1,3 @@
 # Ignore data files
 /data/
 *.zip
-
-# Ignore database created by the YouTube Flask app
-youtubeapptesting/4youtubeapp/database.db
