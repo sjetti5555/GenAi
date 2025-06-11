@@ -1,9 +1,0 @@
-bs4
-Flask==2.1.1
-google-api-python-client==2.15.0
-langdetect
-nltk==3.6.2
-pandas==1.3.3
-requests
-torch
-transformers==4.38.0
