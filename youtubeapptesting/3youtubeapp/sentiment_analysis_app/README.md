@@ -50,4 +50,10 @@ A Flask-based web application for YouTube video sentiment analysis.
 1. Clone the Repository.
 2. Install dependencies:
    ```bash
-# pip install -r requirements.txt
+   pip install -r requirements.txt
+   ```
+3. Set a `SECRET_KEY` environment variable before starting the app:
+   ```bash
+   export SECRET_KEY="your-random-string"
+   ```
+
