@@ -1,7 +1,9 @@
+import os
 import re
 import pandas as pd
 from textblob import TextBlob
 from googleapiclient.discovery import build
+import os
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -10,8 +12,6 @@ from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 nltk.download('stopwords')
 
-# Initialize YouTube API
-api_key = 'Youtube_api_key'  # Replace with your YouTube Data API key
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 def extract_video_id(url):
