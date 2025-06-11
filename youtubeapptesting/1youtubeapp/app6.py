@@ -11,8 +11,7 @@ from transformers import pipeline
 nltk.download('punkt')
 nltk.download('stopwords')
 
-# Initialize YouTube API
-api_key = 'Youtube_Api_key'  # Replace with your YouTube Data API key
+
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Initialize sentiment analysis model
@@ -85,8 +84,8 @@ def main():
     video_id = extract_video_id(video_url)
     if video_id:
         comments = get_video_comments(video_id)
-        save_comments_to_csv(comments, f'{video_id}_sentiment_analysis.csv')
-        print("Sentiment analysis complete. Results saved to CSV.")
+        save_comments_to_csv(comments, f'data/{video_id}_sentiment_analysis.csv')
+        print("Sentiment analysis complete. Results saved to data directory.")
     else:
         print("Invalid YouTube URL")
 

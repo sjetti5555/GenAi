@@ -1,7 +1,9 @@
+import os
 import re
 import pandas as pd
 from textblob import TextBlob
 from googleapiclient.discovery import build
+import os
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -10,8 +12,6 @@ from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 nltk.download('stopwords')
 
-# Initialize YouTube API
-api_key = 'Youtube_api_key'  # Replace with your YouTube Data API key
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 def extract_video_id(url):
@@ -82,8 +82,8 @@ def main():
     video_id = extract_video_id(video_url)
     if video_id:
         comments = get_video_comments(video_id)
-        save_comments_to_csv(comments, f'{video_id}_sentiment_analysis.csv')
-        print("Sentiment analysis complete. Results saved to CSV.")
+        save_comments_to_csv(comments, f'data/{video_id}_sentiment_analysis.csv')
+        print("Sentiment analysis complete. Results saved to data directory.")
     else:
         print("Invalid YouTube URL")
 

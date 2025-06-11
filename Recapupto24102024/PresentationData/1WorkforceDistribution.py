@@ -8,7 +8,7 @@ data = {
     "Annual_Output": np.random.uniform(100000, 5000000, size=100)
 }
 df = pd.DataFrame(data)
-df.to_csv('industry_data.csv', index=False)
+df.to_csv('data/industry_data_presentation.csv', index=False)
 
 # Calculate mean, median, mode
 mean_workforce = df['Workforce_Size'].mean()

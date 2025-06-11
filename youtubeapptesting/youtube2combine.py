@@ -104,8 +104,8 @@ if __name__ == "__main__":
 
                 # Convert to DataFrame and Save
                 df_comments = pd.DataFrame(sentiment_results)
-                df_comments.to_csv("task1_comments_sentiment.csv", index=False)
-                print("Sentiment analysis results saved to 'task1_comments_sentiment.csv'.")
+                df_comments.to_csv("data/task1_comments_sentiment.csv", index=False)
+                print("Sentiment analysis results saved to 'data/task1_comments_sentiment.csv'.")
             else:
                 print("No comments available for analysis.")
     
@@ -121,8 +121,8 @@ if __name__ == "__main__":
 
         if video_results:
             df_videos = pd.DataFrame(video_results)
-            df_videos.to_csv("task2_video_results.csv", index=False)
-            print("Video search results saved to 'task2_video_results.csv'.")
+            df_videos.to_csv("data/task2_video_results.csv", index=False)
+            print("Video search results saved to 'data/task2_video_results.csv'.")
             print(df_videos)
         else:
             print("No videos found for the given keyword.")

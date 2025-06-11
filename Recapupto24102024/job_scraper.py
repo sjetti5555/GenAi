@@ -24,7 +24,7 @@ url = 'https://www.dice.com/jobs?q=salesforce%20developer&countryCode=US&radius=
 driver.get(url)
 
 # Open a CSV file to save the data
-with open('scraped_dice_jobs.csv', 'w', newline='', encoding='utf-8') as file:
+with open('data/scraped_dice_jobs.csv', 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     # Write the header row
     writer.writerow(['Job Title', 'Job Link', 'Job Position Type', 'Location', 'Company', 'Posted Time', 'Pay'])
@@ -67,7 +67,7 @@ with open('scraped_dice_jobs.csv', 'w', newline='', encoding='utf-8') as file:
             print("No more pages or an error occurred:", e)
             break  # Exit the loop if there are no more pages or an error occurs
 
-    print(f"Data has been scraped and saved to 'scraped_dice_jobs.csv'.")
+    print(f"Data has been scraped and saved to 'data/scraped_dice_jobs.csv'.")
     print(f"Total jobs gathered: {job_count}")
 
 # Close the browser
