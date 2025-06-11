@@ -127,15 +127,15 @@ try:
 
     # Save the collected data to a CSV file
     df = pd.DataFrame(data, columns=['App ID', 'PS_NO', 'SLNO', 'Name', 'Relation Name', 'House Number', 'Age'])
-    df.to_csv('GraduateMlc.csv', index=False)
-    print(f"Data extracted and saved to 'GraduateMlc.csv'. Total entries saved: {len(data)}.")
+    df.to_csv('data/GraduateMlc.csv', index=False)
+    print(f"Data extracted and saved to 'data/GraduateMlc.csv'. Total entries saved: {len(data)}.")
 
 except KeyboardInterrupt:
     print("\nProcess interrupted. Saving collected data...")
     # Save the collected data to a CSV file
     df = pd.DataFrame(data, columns=['App ID', 'PS_NO', 'SLNO', 'Name', 'Relation Name', 'House Number', 'Age'])
-    df.to_csv('GraduateMlc_partial.csv', index=False)
-    print(f"Partial data saved to 'GraduateMlc_partial.csv'. Total entries saved: {len(data)}.")
+    df.to_csv('data/GraduateMlc_partial.csv', index=False)
+    print(f"Partial data saved to 'data/GraduateMlc_partial.csv'. Total entries saved: {len(data)}.")
 
 except Exception as e:
     print(f"An error occurred: {e}")

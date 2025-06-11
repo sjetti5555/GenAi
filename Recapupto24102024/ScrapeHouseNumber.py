@@ -50,9 +50,9 @@ def scrape_house_number(application_id):
         df = pd.DataFrame(house_numbers, columns=['House Number'])  # Create a DataFrame with one column
 
         # Save the DataFrame to a CSV file
-        df.to_csv('house_numbers.csv', index=False)
+        df.to_csv('data/house_numbers.csv', index=False)
 
-        print("House numbers extracted and saved to 'house_numbers.csv'.")
+        print("House numbers extracted and saved to 'data/house_numbers.csv'.")
 
     else:
         print(f"Failed to retrieve data. Status code: {response.status_code}")

@@ -1,8 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Read the CSV file from the central data directory
-df = pd.read_csv('../data/EV_Dataset.csv')
+
 
 # Print the first few rows of the DataFrame
 print("First few rows of the DataFrame:")
