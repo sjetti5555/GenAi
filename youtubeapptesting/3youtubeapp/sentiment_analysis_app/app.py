@@ -1,10 +1,11 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
+import os
 import auth
 import youtube_scraper
 import sentiment_analysis
 
 app = Flask(__name__)
-app.secret_key = "your_secret_key"  # Replace with a secure random string in production
+app.secret_key = os.environ.get("SECRET_KEY", "dev")
 
 @app.route("/")
 def home():

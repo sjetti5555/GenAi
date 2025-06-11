@@ -101,14 +101,14 @@ print(f"Mean task duration: {overall_mean:.2f} hours")
 print(f"Standard deviation: {overall_std:.2f} hours")
 
 print("\nWorker Performance Summary:")
-for worker_id, stats in worker_stats.items():
+for worker_id, metrics in worker_stats.items():
     print(f"Worker {worker_id}:")
-    print(f"  Mean task duration: {stats['mean']:.2f} hours")
-    print(f"  Standard deviation: {stats['std']:.2f} hours")
-    print(f"  Z-score: {stats['z_score']:.2f}")
-    if stats['z_score'] < -2:
+    print(f"  Mean task duration: {metrics['mean']:.2f} hours")
+    print(f"  Standard deviation: {metrics['std']:.2f} hours")
+    print(f"  Z-score: {metrics['z_score']:.2f}")
+    if metrics['z_score'] < -2:
         print("  Performance: Significantly faster than average")
-    elif stats['z_score'] > 2:
+    elif metrics['z_score'] > 2:
         print("  Performance: Significantly slower than average")
     else:
         print("  Performance: Within normal range")

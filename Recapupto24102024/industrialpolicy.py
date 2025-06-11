@@ -22,7 +22,7 @@ industry_data = {
 industry_df = pd.DataFrame(industry_data)
 
 # Store data into an SQLite database
-conn = sqlite3.connect('andhra_pradesh_industry_data.db')
+conn = sqlite3.connect('../data/andhra_pradesh_industry_data.db')
 industry_df.to_sql('industry', conn, if_exists='replace', index=False)
 print("Data stored in SQLite database.")
 
