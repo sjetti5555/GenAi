@@ -11,8 +11,7 @@ from transformers import pipeline
 nltk.download('punkt')
 nltk.download('stopwords')
 
-# Initialize YouTube API using the `YOUTUBE_API_KEY` environment variable
-api_key = os.getenv("YOUTUBE_API_KEY", "")
+
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Initialize sentiment analysis model
