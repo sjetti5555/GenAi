@@ -1,9 +1,10 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 from youtube_sentiment import extract_video_id, get_video_comments, create_csv  # Your existing functions
 import sqlite3
+import os
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'
+app.secret_key = os.environ.get("SECRET_KEY", "dev")
 
 # Database Setup
 def init_db():
