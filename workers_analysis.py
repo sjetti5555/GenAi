@@ -87,7 +87,7 @@ def plot_performance_distribution(data, worker_stats, overall_mean, overall_std)
 num_workers = 20
 num_tasks = 50
 worker_data = generate_worker_data(num_workers, num_tasks)
-csv_filename = 'worker_performance.csv'
+csv_filename = 'data/worker_performance.csv'
 write_to_csv(worker_data, csv_filename)
 print(f"Worker performance data has been generated and saved to {csv_filename}")
 

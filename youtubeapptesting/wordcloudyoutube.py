@@ -116,8 +116,8 @@ if __name__ == "__main__":
                 "Comment": comments,
                 "Language": [detect_language(c) for c in comments]
             })
-            df.to_csv("categorized_comments.csv", index=False)
-            print("Categorized comments saved to 'categorized_comments.csv'.")
+            df.to_csv("data/categorized_comments.csv", index=False)
+            print("Categorized comments saved to 'data/categorized_comments.csv'.")
 
             # Generate Word Clouds
             if english_comments:

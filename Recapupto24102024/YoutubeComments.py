@@ -82,10 +82,10 @@ else:
     df['sentiment'] = np.where(df['polarity'] > 0, 'positive', np.where(df['polarity'] < 0, 'negative', 'neutral'))
 
     # Save the DataFrame to a CSV file
-    df.to_csv('comments_sentiment.csv', index=False)
+    df.to_csv('data/comments_sentiment.csv', index=False)
 
     # Print the DataFrame to see the output
-    print("Sentiment analysis results saved to 'comments_sentiment.csv':")
+    print("Sentiment analysis results saved to 'data/comments_sentiment.csv':")
     print(df)
 
 # Close the browser

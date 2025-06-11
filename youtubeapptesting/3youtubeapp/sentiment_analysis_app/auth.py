@@ -1,7 +1,8 @@
 import sqlite3
+import os
 import bcrypt  # Ensure bcrypt is installed: pip install bcrypt
 
-DB_PATH = "database.db"
+DB_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "database.db")
 
 def connect_db():
     """Establish a connection to the SQLite database."""

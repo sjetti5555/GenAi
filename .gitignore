@@ -1,14 +1,5 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Data files
-*.csv
-*.db
-*.pdf
+# Ignore data files
+/data/
 *.zip
 
 # Ignore database created by the YouTube Flask app
