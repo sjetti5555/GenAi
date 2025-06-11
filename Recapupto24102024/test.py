@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-df = pd.read_json('t20_wc_player_info.json')
+df = pd.read_json('data/t20_wc_player_info.json')
 
 print(df[df['team']=='India'])
 
@@ -27,12 +27,12 @@ plt.show()
 # Different file formats for data storage and exchange:
 
 # 1. CSV (Comma-Separated Values)
-df.to_csv('data.csv', index=False)
-# Reading: pd.read_csv('data.csv')
+df.to_csv('data/data.csv', index=False)
+# Reading: pd.read_csv('data/data.csv')
 
 # 2. JSON (JavaScript Object Notation)
-df.to_json('data.json', orient='records')
-# Reading: pd.read_json('data.json')
+df.to_json('data/data.json', orient='records')
+# Reading: pd.read_json('data/data.json')
 
 # 3. Excel
 df.to_excel('data.xlsx', index=False)

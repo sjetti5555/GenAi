@@ -37,7 +37,7 @@ airports = {
 city_lookup = {city.lower(): city for city in airports.keys()}
 
 # Read the CSV file
-df = pd.read_csv('FlightDatabase.csv')
+df = pd.read_csv('data/FlightDatabase.csv')
 
 # Create a set of unique cities in the database
 db_cities = set(df['Source'].unique()) | set(df['Destination'].unique())

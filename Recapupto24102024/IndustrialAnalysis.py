@@ -96,8 +96,7 @@ print(f"Chi-Square Test p-value: {p}")
 
 # Module 7: Database Integration
 # Create SQLite database and store the dataframe
-DATA_DIR = Path(__file__).resolve().parent.parent / 'data'
-conn = sqlite3.connect(DATA_DIR / 'industrial_policy.db')
+
 df.to_sql('policy_data', conn, if_exists='replace', index=False)
 query_result = pd.read_sql('SELECT * FROM policy_data', conn)
 print("Data from SQLite Database:\n", query_result)

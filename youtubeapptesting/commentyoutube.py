@@ -86,5 +86,5 @@ if __name__ == "__main__":
     print(df.head())
 
     # Save to CSV
-    df.to_csv("youtube_comments_sentiment.csv", index=False)
-    print("Results saved to 'youtube_comments_sentiment.csv'.")
+    df.to_csv("data/youtube_comments_sentiment.csv", index=False)
+    print("Results saved to 'data/youtube_comments_sentiment.csv'.")
