@@ -10,3 +10,6 @@ __pycache__/
 *.db
 *.pdf
 *.zip
+
+# Ignore database created by the YouTube Flask app
+youtubeapptesting/4youtubeapp/database.db
