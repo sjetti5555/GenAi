@@ -1,3 +1,0 @@
-# GenAi Project
-
-
