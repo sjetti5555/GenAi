@@ -11,8 +11,7 @@ from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 nltk.download('stopwords')
 
-# Initialize YouTube API
-api_key = os.getenv('YOUTUBE_API_KEY')
+
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 def extract_video_id(url):
