@@ -7,7 +7,7 @@ app.secret_key = 'your_secret_key'
 
 # Database Setup
 def init_db():
-    conn = sqlite3.connect('database.db')
+    conn = sqlite3.connect('../../data/database.db')
     conn.execute('''CREATE TABLE IF NOT EXISTS users
                     (id INTEGER PRIMARY KEY AUTOINCREMENT,
                     firstname TEXT,
@@ -26,7 +26,7 @@ def index():
 @app.route('/signup', methods=['POST'])
 def signup():
     data = request.form
-    conn = sqlite3.connect('database.db')
+    conn = sqlite3.connect('../../data/database.db')
     try:
         conn.execute("INSERT INTO users (firstname, lastname, sex, mobile, username, password) VALUES (?, ?, ?, ?, ?, ?)",
                      (data['firstname'], data['lastname'], data['sex'], data['mobile'], data['username'], data['password']))
@@ -40,7 +40,7 @@ def signup():
 @app.route('/login', methods=['POST'])
 def login():
     data = request.form
-    conn = sqlite3.connect('database.db')
+    conn = sqlite3.connect('../../data/database.db')
     cursor = conn.execute("SELECT * FROM users WHERE username = ? AND password = ?", (data['username'], data['password']))
     user = cursor.fetchone()
     conn.close()

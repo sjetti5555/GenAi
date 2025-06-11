@@ -8,8 +8,8 @@ from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, confus
 import numpy as np
 
 # Load the dataset
-file_path = r'C:\Users\srira\OneDrive\Desktop\Gen_AI\Training\AllDomains\Loan_Default.csv'  # Update this path
-data = pd.read_csv(file_path)
+# Load dataset from the shared data directory
+data = pd.read_csv('../../data/Loan_Default.csv')
 
 # Display the first few rows of the dataset
 print("First few rows of the dataset:")
