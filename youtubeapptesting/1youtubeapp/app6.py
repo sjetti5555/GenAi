@@ -85,8 +85,8 @@ def main():
     video_id = extract_video_id(video_url)
     if video_id:
         comments = get_video_comments(video_id)
-        save_comments_to_csv(comments, f'{video_id}_sentiment_analysis.csv')
-        print("Sentiment analysis complete. Results saved to CSV.")
+        save_comments_to_csv(comments, f'data/{video_id}_sentiment_analysis.csv')
+        print("Sentiment analysis complete. Results saved to data directory.")
     else:
         print("Invalid YouTube URL")
 

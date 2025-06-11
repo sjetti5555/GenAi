@@ -58,9 +58,9 @@ def scrape_data(application_id, count):
         df = pd.DataFrame(data_list, columns=['App ID', 'PS_NO', 'SLNO', 'Name', 'Relation Name', 'House Number', 'Age'])
 
         # Save the DataFrame to a CSV file
-        df.to_csv('application_details.csv', index=False)
+        df.to_csv('data/application_details.csv', index=False)
 
-        print(f"Data extracted and saved to 'application_details.csv'. Total entries saved: {len(data_list)}.")
+        print(f"Data extracted and saved to 'data/application_details.csv'. Total entries saved: {len(data_list)}.")
 
     else:
         print(f"Failed to retrieve data. Status code: {response.status_code}")

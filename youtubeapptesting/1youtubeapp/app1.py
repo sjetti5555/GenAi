@@ -69,8 +69,8 @@ def main():
         comments_df = pd.DataFrame(comments, columns=['Comment'])
         comments_df['Cleaned_Comment'] = comments_df['Comment'].apply(clean_text)
         comments_df['Sentiment'] = comments_df['Cleaned_Comment'].apply(get_sentiment)
-        comments_df.to_csv(f'{video_id}_sentiment_analysis.csv', index=False)
-        print("Sentiment analysis complete. Results saved to CSV.")
+        comments_df.to_csv(f'data/{video_id}_sentiment_analysis.csv', index=False)
+        print("Sentiment analysis complete. Results saved to data directory.")
     else:
         print("Invalid YouTube URL")
 
