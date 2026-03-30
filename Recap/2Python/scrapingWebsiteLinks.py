@@ -96,3 +96,5 @@ print(f"Total number of unique links: {len(all_links)}")
 
 if interrupted:
     print("Scraping was interrupted. Progress has been saved.")
+
+print(f"Total number of unique links: {len(all_links)}")
